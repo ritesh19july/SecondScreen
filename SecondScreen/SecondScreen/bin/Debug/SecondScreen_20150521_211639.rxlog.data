@@ -1,0 +1,195 @@
+﻿<report>
+	<activity
+	user="mohd.nazim"
+	host="CTNL1134KESHAV"
+	rxversion="5.3.1.22939"
+	osversion="Windows 7 Service Pack 1 32bit"
+	runtimeversion="4.0.30319.17929"
+	procarch="32bit"
+	language="en-US"
+	screenresolution="1366x768"
+	timestamp="5/21/2015 9:16:39 PM"
+	timestampiso="2015-05-21T15:46:39"
+	timeoutfactor="1"
+	result="Success"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="4c59200b84883b0"
+	totalerrorcount="1"
+	totalwarningcount="0"
+	totalsuccesscount="0"
+	totalfailedcount="1"
+	totalblockedcount="0">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+		testsuitename="SecondScreen"
+		runconfigname="TestRun"
+		runlabel=""
+		maxchildren="13"
+		result="Failed"
+		duration="1.5m"
+		durationms="91852"
+		type="test suite"
+		rid="84a6c6cad77f1b8"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+			testcasename="MobilAppLaunch"
+			testcaseid="e274fa09-ea51-4904-be74-7b65328bc5aa"
+			datasource="devicesName"
+			iterationcount="1"
+			maxchildren="0"
+			result="Failed"
+			duration="1.5m"
+			durationms="91829"
+			type="test case"
+			rid="1b3e33afab8f134"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+				testcasename="MobilAppLaunch"
+				iteration="1"
+				result="Failed"
+				duration="1.5m"
+				durationms="91824"
+				type="test case iteration"
+				rid="16e70505e3d90580"
+				totalerrorcount="2"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="0">
+					<datarow>
+						<field
+						name="deviceName">
+							tab4
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+					modulename="MobileSecondScreen"
+					moduleid="f7e3d08b-3598-44d8-8364-a1c827027781"
+					moduletype="Recording"
+					result="Failed"
+					duration="1.5m"
+					durationms="91781"
+					type="test module"
+					rid="1e58fedc9e45f62d"
+					totalerrorcount="2"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0">
+						<detail>
+						</detail>
+						<errmsg>
+							Failed to find item 'SecondScreenRepository.ComWweUniverse.Home'.
+						</errmsg>
+						<varbindings>
+							<varbinding
+							name="varDeviceName"
+							value="tab4"/>
+						</varbindings>
+						<item
+						time="00:00.315"
+						level="Info"
+						category="Data">
+							<message>
+								Current variable values:<br/>$varDeviceName = 'tab4'
+							</message>
+							<metainfo
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:00.381"
+						level="Info"
+						category="Application">
+							<message>
+								Run mobile app 'com.wwe.universe' on device 'tab4'.
+							</message>
+							<metainfo
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\mobileSecondScreen.UserCode.cs"
+							codeline="38"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:04.991"
+						level="Info"
+						category="Delay"
+						errimg="images_SecondScreen_20150521_211639\SecondScreen_20150521_211639_140a1408_trace.jpg"
+						errthumb="images_SecondScreen_20150521_211639\SecondScreen_20150521_211639_140a1408_trace_thumb.jpg">
+							<message>
+								Waiting for 10s.
+							</message>
+							<metainfo
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\mobileSecondScreen.UserCode.cs"
+							codeline="62"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:15.091"
+						level="Info"
+						category="Touch"
+						errimg="images_SecondScreen_20150521_211639\SecondScreen_20150521_211639_057e3b38_trace.jpg"
+						errthumb="images_SecondScreen_20150521_211639\SecondScreen_20150521_211639_057e3b38_trace_thumb.jpg">
+							<message>
+								Touch item 'ComWweUniverse.Home' at Center
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/mobileapp[@title='com.wwe.universe']/?/?/toolbar/?/?/container[@contentdescription='WWE, Navigate up']/?/?/picture[@rid='home']"
+							fullname="SecondScreenRepository.ComWweUniverse.Home"
+							id="dc08c44066ea4658976fd8b294c7973b"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\mobileSecondScreen.UserCode.cs"
+							codeline="56"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="01:26.959"
+						level="Error"
+						category="Module"
+						errimg="images_SecondScreen_20150521_211639\SecondScreen_20150521_211639_ff45151c_trace.jpg"
+						errthumb="images_SecondScreen_20150521_211639\SecondScreen_20150521_211639_ff45151c_trace_thumb.jpg">
+							<message>
+								Failed to find item 'SecondScreenRepository.ComWweUniverse.Home'.<br/>No element found for path '/mobileapp[@title='com.wwe.universe']/?/?/toolbar/?/?/container[@contentdescription='WWE, Navigate up']/?/?/picture[@rid='home']' within 1m.
+							</message>
+							<metainfo
+							stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at SecondScreen.SecondScreenRepositoryFolders.ComWweUniverseAppFolder.get_Home() in c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\SecondScreenRepository.cs:line 2900
+   at SecondScreen.MobileSecondScreen.Touch_Home() in c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\mobileSecondScreen.UserCode.cs:line 57
+   at SecondScreen.MobileSecondScreen.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\mobileSecondScreen.cs:line 101
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\mobileSecondScreen.UserCode.cs"
+							codeline="57"
+							type="repoitem"
+							path="/mobileapp[@title='com.wwe.universe']/?/?/toolbar/?/?/container[@contentdescription='WWE, Navigate up']/?/?/picture[@rid='home']"
+							fullname="SecondScreenRepository.ComWweUniverse.Home"
+							id="dc08c44066ea4658976fd8b294c7973b"
+							timeout="60000"
+							loglvl="Error"/>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

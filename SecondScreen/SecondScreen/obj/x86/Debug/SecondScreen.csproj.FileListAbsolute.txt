@@ -1,0 +1,12 @@
+C:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\bin\Debug\activeContent.xlsx
+C:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\bin\Debug\addTrivia.xlsx
+C:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\bin\Debug\createShows.xlsx
+C:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\bin\Debug\manageShowsNew.xlsx
+C:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\bin\Debug\SecondScreen.rxtmg
+C:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\bin\Debug\SecondScreen.rxtst
+C:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\bin\Debug\RepositoryImages\SecondScreenRepositoryf70d53b3.rximgres
+C:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\bin\Debug\SecondScreen.exe.config
+C:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\bin\Debug\SecondScreen.exe
+C:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\bin\Debug\SecondScreen.pdb
+C:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\obj\x86\Debug\SecondScreen.exe
+C:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\obj\x86\Debug\SecondScreen.pdb

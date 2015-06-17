@@ -1,0 +1,435 @@
+﻿<report>
+	<activity
+	user="mohd.nazim"
+	host="CTNL1134KESHAV"
+	rxversion="5.3.1.22939"
+	osversion="Windows 7 Service Pack 1 32bit"
+	runtimeversion="4.0.30319.17929"
+	procarch="32bit"
+	language="en-US"
+	screenresolution="1366x768"
+	timestamp="5/26/2015 5:28:29 PM"
+	timestampiso="2015-05-26T11:58:29"
+	timeoutfactor="1"
+	result="Success"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="1e1a2e38d889b7b6"
+	totalerrorcount="2"
+	totalwarningcount="1"
+	totalsuccesscount="1"
+	totalfailedcount="1"
+	totalblockedcount="0">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+		testsuitename="SecondScreen"
+		runconfigname="TestRun"
+		runlabel=""
+		maxchildren="16"
+		result="Failed"
+		duration="1.9m"
+		durationms="112214"
+		type="test suite"
+		rid="128426ec87f6e242"
+		totalerrorcount="2"
+		totalwarningcount="1"
+		totalsuccesscount="1"
+		totalfailedcount="1"
+		totalblockedcount="0">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+			testcasename="OpenManageScreen"
+			testcaseid="e12f671d-a5dc-43a6-a94c-f533eec6c144"
+			datasource="manageScreenNew"
+			iterationcount="2"
+			maxchildren="0"
+			result="Success"
+			duration="41.76s"
+			durationms="41760"
+			type="test case"
+			rid="12cb9a79554a5044"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+				testcasename="OpenManageScreen"
+				iteration="1"
+				result="Success"
+				duration="41.75s"
+				durationms="41753"
+				type="test case iteration"
+				rid="8a45923296686c8"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="0">
+					<datarow>
+						<field
+						name="varBrowser">
+							Chrome
+						</field>
+						<field
+						name="varURL">
+							http://wwe-dev.wwe-app.cloud14.wwe.com/feeds/wweactive/manage
+						</field>
+						<field
+						name="varDynamicTime">
+							2000
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+					modulename="OpenManageScreen"
+					moduleid="9d4379d3-5419-41f3-aa66-81fc2e51e5f1"
+					moduletype="Recording"
+					result="Success"
+					duration="41.69s"
+					durationms="41689"
+					type="test module"
+					rid="6df729cd5e9793e"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0">
+						<detail>
+						</detail>
+						<varbindings>
+							<varbinding
+							name="varBrowser"
+							value="Chrome"/>
+							<varbinding
+							name="varURL"
+							value="http://wwe-dev.wwe-app.cloud14.wwe.com/feeds/wweactive/manage"/>
+						</varbindings>
+						<item
+						time="00:01.288"
+						level="Info"
+						category="Data">
+							<message>
+								Current variable values:<br/>$varBrowser = 'Chrome', $varURL = 'http://wwe-dev.wwe-app.cloud14.wwe.com/feeds/wweactive/manage'
+							</message>
+							<metainfo
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:01.375"
+						level="Info"
+						category="Website">
+							<message>
+								Opening web site URL in variable $varURL with browser specified by variable $varBrowser in normal mode.
+							</message>
+							<metainfo
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\openManageScreen.UserCode.cs"
+							codeline="44"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:01.679"
+						level="Info"
+						category="Delay">
+							<message>
+								Waiting for 40s.
+							</message>
+							<metainfo
+							itemindex="1"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\openManageScreen.cs"
+							codeline="109"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:41.761"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left Click item 'ShowsWWE.SecondScreenTestSessionsDemo' at 197;13.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//table[#'planning-table']/tbody/tr/td[2]/a[@innertext~'^Second\ Screen\ Test\ Sessio']"
+							fullname="SecondScreenRepository.ShowsWWE.SecondScreenTestSessionsDemo"
+							id="339798bdb4d247b788eb44caa8705580"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\openManageScreen.UserCode.cs"
+							codeline="37"
+							loglvl="Info"/>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+			<activity
+			testcasename="AddContent-InRing"
+			testcaseid="1f7daf2f-8c4d-4bc1-a226-ae2b0b08af6a"
+			maxchildren="0"
+			result="Failed"
+			duration="1.2m"
+			durationms="69467"
+			type="test case"
+			rid="4a25c835e54b820"
+			totalerrorcount="2"
+			totalwarningcount="1"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+				modulename="AddContentInRing"
+				moduleid="31c7471a-4117-420b-a841-8221b3302451"
+				moduletype="Recording"
+				result="Failed"
+				duration="1.2m"
+				durationms="69388"
+				type="test module"
+				rid="36915a146f9c455e"
+				totalerrorcount="1"
+				totalwarningcount="1"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="0">
+					<detail>
+					</detail>
+					<errmsg>
+						Failed to find item 'SecondScreenRepository.ShowsWWE.DropMeWhereIShouldAppear4'.
+					</errmsg>
+					<varbindings/>
+					<item
+					time="00:42.967"
+					level="Warn"
+					category="Data">
+						<message>
+							The following module variables are not bound to a data column:<br/>varInRing1, varInRing2, varInRing3, varInRing4
+						</message>
+						<metainfo
+						loglvl="Warn"/>
+					</item>
+					<item
+					time="00:43.038"
+					level="Info"
+					category="Mouse">
+						<message>
+							Mouse Left Click item 'ShowsWWE.InTheRing' at 76;14.
+						</message>
+						<metainfo
+						type="repoitem"
+						path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//h3[#'ui-accordion-accordion-header-1']/a[@innertext='In The Ring']"
+						fullname="SecondScreenRepository.ShowsWWE.InTheRing"
+						id="1fc6c1df288b42e48dd29388dca4f6e2"
+						timeout="60000"
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\addContentInRing.UserCode.cs"
+						codeline="105"
+						loglvl="Info"/>
+					</item>
+					<item
+					time="00:43.168"
+					level="Info"
+					category="Keyboard">
+						<message>
+							Key sequence from variable $varInRing1 with focus on 'ShowsWWE.EditIntheringValues0Nid'.
+						</message>
+						<metainfo
+						type="repoitem"
+						path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//input[#'edit-inthering-values-0-nid']"
+						fullname="SecondScreenRepository.ShowsWWE.EditIntheringValues0Nid"
+						id="5c2061a9ccd24a418015e230d7ce5ad3"
+						timeout="60000"
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\addContentInRing.UserCode.cs"
+						codeline="142"
+						loglvl="Info"/>
+					</item>
+					<item
+					time="00:45.007"
+					level="Info"
+					category="Keyboard">
+						<message>
+							Key sequence '{Tab}'.
+						</message>
+						<metainfo
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\addContentInRing.UserCode.cs"
+						codeline="148"
+						loglvl="Info"/>
+					</item>
+					<item
+					time="00:45.483"
+					level="Info"
+					category="Keyboard">
+						<message>
+							Key sequence from variable $varInRing2 with focus on 'ShowsWWE.EditIntheringValues1Nid'.
+						</message>
+						<metainfo
+						type="repoitem"
+						path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//input[#'edit-inthering-values-1-nid']"
+						fullname="SecondScreenRepository.ShowsWWE.EditIntheringValues1Nid"
+						id="939bae96ac494d9cb14b17ee7f48c253"
+						timeout="60000"
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\addContentInRing.UserCode.cs"
+						codeline="135"
+						loglvl="Info"/>
+					</item>
+					<item
+					time="00:47.095"
+					level="Info"
+					category="Keyboard">
+						<message>
+							Key sequence '{Tab}'.
+						</message>
+						<metainfo
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\addContentInRing.UserCode.cs"
+						codeline="148"
+						loglvl="Info"/>
+					</item>
+					<item
+					time="00:47.564"
+					level="Info"
+					category="Keyboard">
+						<message>
+							Key sequence from variable $varInRing3 with focus on 'ShowsWWE.EditIntheringValues2Nid'.
+						</message>
+						<metainfo
+						type="repoitem"
+						path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//input[#'edit-inthering-values-2-nid']"
+						fullname="SecondScreenRepository.ShowsWWE.EditIntheringValues2Nid"
+						id="ff64eeb72c594249a183af20eaa6694c"
+						timeout="60000"
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\addContentInRing.UserCode.cs"
+						codeline="128"
+						loglvl="Info"/>
+					</item>
+					<item
+					time="00:49.393"
+					level="Info"
+					category="Keyboard">
+						<message>
+							Key sequence '{Tab}'.
+						</message>
+						<metainfo
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\addContentInRing.UserCode.cs"
+						codeline="148"
+						loglvl="Info"/>
+					</item>
+					<item
+					time="00:49.867"
+					level="Info"
+					category="Keyboard">
+						<message>
+							Key sequence from variable $varInRing4 with focus on 'ShowsWWE.EditIntheringValues3Nid'.
+						</message>
+						<metainfo
+						type="repoitem"
+						path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//input[#'edit-inthering-values-3-nid']"
+						fullname="SecondScreenRepository.ShowsWWE.EditIntheringValues3Nid"
+						id="a1bca417f9314306aa7a4d2b86c6406c"
+						timeout="60000"
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\addContentInRing.UserCode.cs"
+						codeline="121"
+						loglvl="Info"/>
+					</item>
+					<item
+					time="00:51.421"
+					level="Info"
+					category="Mouse"
+					errimg="C:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\bin\Debug\images_SecondScreen_20150526_172829\SecondScreen_20150526_172829_c339b6ca_trace.jpg"
+					errthumb="C:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\bin\Debug\images_SecondScreen_20150526_172829\SecondScreen_20150526_172829_c339b6ca_trace_thumb.jpg">
+						<message>
+							Mouse Left Down item 'ShowsWWE.HttpQaWweAppCloud6WweComFeedsW7' at 11;11.
+						</message>
+						<metainfo
+						type="repoitem"
+						path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//h3[#'ui-accordion-accordion-header-1']/a[2]"
+						fullname="SecondScreenRepository.ShowsWWE.HttpQaWweAppCloud6WweComFeedsW7"
+						id="94538964e040412ca69cf3437e2a174c"
+						timeout="60000"
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\addContentInRing.UserCode.cs"
+						codeline="44"
+						loglvl="Info"/>
+					</item>
+					<item
+					time="00:51.954"
+					level="Info"
+					category="Mouse">
+						<message>
+							Mouse Left Up item 'ShowsWWE.DropMeWhereIShouldAppear4' at 11;11.
+						</message>
+						<metainfo
+						type="repoitem"
+						path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//h3[#'ui-accordion-accordion-header-1']/div[@innertext~'^Drop\ me\ where\ I\ should\ ap']"
+						fullname="SecondScreenRepository.ShowsWWE.DropMeWhereIShouldAppear4"
+						id="4b2f3e561b3c435386643f0f4b219ad8"
+						timeout="60000"
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\addContentInRing.UserCode.cs"
+						codeline="37"
+						loglvl="Info"/>
+					</item>
+					<item
+					time="01:52.247"
+					level="Error"
+					category="Module">
+						<message>
+							Failed to find item 'SecondScreenRepository.ShowsWWE.DropMeWhereIShouldAppear4'.<br/>No element found for path '/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//h3[#'ui-accordion-accordion-header-1']/div[@innertext~'^Drop\ me\ where\ I\ should\ ap']' within 1m.
+						</message>
+						<metainfo
+						stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at SecondScreen.SecondScreenRepositoryFolders.ShowsWWEAppFolder.get_DropMeWhereIShouldAppear4() in c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\SecondScreenRepository.cs:line 1720
+   at SecondScreen.AddContentInRing.Mouse_Up_DragNDrop() in c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\addContentInRing.UserCode.cs:line 38
+   at SecondScreen.AddContentInRing.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\addContentInRing.cs:line 161
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\addContentInRing.UserCode.cs"
+						codeline="38"
+						type="repoitem"
+						path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//h3[#'ui-accordion-accordion-header-1']/div[@innertext~'^Drop\ me\ where\ I\ should\ ap']"
+						fullname="SecondScreenRepository.ShowsWWE.DropMeWhereIShouldAppear4"
+						id="4b2f3e561b3c435386643f0f4b219ad8"
+						timeout="60000"
+						loglvl="Error"/>
+					</item>
+				</activity>
+				<activity
+				modulename="AddContentInRing"
+				moduleid="31c7471a-4117-420b-a841-8221b3302451"
+				moduletype="Recording"
+				result="Failed"
+				duration="71ms"
+				durationms="71"
+				type="test module"
+				rid="2205b60040714d60"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="0">
+					<detail>
+					</detail>
+					<errmsg>
+						A generic error occurred in GDI+.
+					</errmsg>
+					<item
+					time="01:52.363"
+					level="Error"
+					category="Module">
+						<message>
+							A generic error occurred in GDI+.
+						</message>
+						<metainfo
+						stacktrace="   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)&#13;&#10;   at System.Drawing.Image.Save(String filename, ImageFormat format)&#13;&#10;   at Ranorex.Core.XmlLogger.SaveScreenshot(Bitmap img, Int32 thumbWidth, ReportEnvironment reportEnv, String fullImgSuffix, String thumbImgSuffix, Boolean appendImageCount, Int32&amp; imgCnt, Boolean overwriteExisting, String&amp; imgFileName, String&amp; imgThumbFileName)&#13;&#10;   at Ranorex.Core.Reporting.ReportItem.SaveScreenshot(CompressedImage img)&#13;&#10;   at Ranorex.Core.Reporting.TestReport.SaveLocalScreenshotBuffer(Activity mod)&#13;&#10;   at Ranorex.Core.Reporting.TestReport.SaveLocalScreenshotBuffer()&#13;&#10;   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)&#13;&#10;   at Ranorex.Core.Testing.TestSuiteModule.RunWithRepeats(DataContext parentDataContext, ErrorBehavior errorBehavior)&#13;&#10;   at Ranorex.Core.Testing.TestSuiteModule.Run(DataContext parentDataContext, Boolean childSkip)"
+						loglvl="Error"/>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

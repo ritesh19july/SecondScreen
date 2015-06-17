@@ -1,0 +1,283 @@
+﻿<report>
+	<activity
+	user="mohd.nazim"
+	host="CTNL1134KESHAV"
+	rxversion="5.3.1.22939"
+	osversion="Windows 7 Service Pack 1 32bit"
+	runtimeversion="4.0.30319.17929"
+	procarch="32bit"
+	language="en-US"
+	screenresolution="1366x768"
+	timestamp="5/13/2015 2:59:19 PM"
+	timestampiso="2015-05-13T09:29:19"
+	timeoutfactor="1"
+	result="Success"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="1a1f81ceef613ee"
+	totalerrorcount="1"
+	totalwarningcount="0"
+	totalsuccesscount="0"
+	totalfailedcount="1"
+	totalblockedcount="0">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+		testsuitename="SecondScreen"
+		runconfigname="TestRun"
+		runlabel=""
+		maxchildren="3"
+		result="Failed"
+		duration="47.72s"
+		durationms="47718"
+		type="test suite"
+		rid="34731befd02532d0"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+			testcasename="ManageContent"
+			testcaseid="f940e081-7326-47f1-b8c0-a8530e8e0aa1"
+			datasource="manageShows"
+			iterationcount="2"
+			maxchildren="0"
+			result="Failed"
+			duration="46.97s"
+			durationms="46971"
+			type="test case"
+			rid="11ae6dbc784516b0"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+				testcasename="ManageContent"
+				iteration="1"
+				result="Failed"
+				duration="46.96s"
+				durationms="46960"
+				type="test case iteration"
+				rid="2f319f3ff12f17ec"
+				totalerrorcount="2"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="0">
+					<datarow>
+						<field
+						name="varBrowser">
+							Chrome
+						</field>
+						<field
+						name="varURL">
+							http://qa.wwe-app.cloud6.wwe.com/feeds/wweactive/manage
+						</field>
+						<field
+						name="varDynamicTime">
+							2000
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+					modulename="ManageContentNew"
+					moduleid="9ddf6a5e-3866-4599-a4c2-46709d916400"
+					moduletype="Recording"
+					result="Failed"
+					duration="46.83s"
+					durationms="46831"
+					type="test module"
+					rid="fb23deb9d3b7a00"
+					totalerrorcount="2"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0">
+						<detail>
+						</detail>
+						<errmsg>
+							Parsing RxPath '12;18' failed.
+line 1:2 no viable alternative at character ';'
+line 1:0 no viable alternative at input '12'&#10;
+						</errmsg>
+						<varbindings>
+							<varbinding
+							name="varBrowser"
+							value="Chrome"/>
+							<varbinding
+							name="varURL"
+							value="http://qa.wwe-app.cloud6.wwe.com/feeds/wweactive/manage"/>
+						</varbindings>
+						<item
+						time="00:01.081"
+						level="Info"
+						category="Data">
+							<message>
+								Current variable values:<br/>$varBrowser = 'Chrome', $varURL = 'http://qa.wwe-app.cloud6.wwe.com/feeds/wweactive/manage'
+							</message>
+							<metainfo
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:01.170"
+						level="Info"
+						category="Website">
+							<message>
+								Opening web site URL in variable $varURL with browser specified by variable $varBrowser in normal mode.
+							</message>
+							<metainfo
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\ManageContentNew.UserCode.cs"
+							codeline="139"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:01.466"
+						level="Info"
+						category="Delay">
+							<message>
+								Waiting for 30s.
+							</message>
+							<metainfo
+							itemindex="1"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\ManageContentNew.cs"
+							codeline="111"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:31.560"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left Click item 'ShowsWWE.SecondScreenTestSessionsDemo' at 188;12.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='qa.wwe-app.cloud6.wwe.com']//table[#'planning-table']/tbody/tr/td[2]/a[@innertext~'^Second\ Screen\ Test\ Sessio']"
+							fullname="SecondScreenRepository.ShowsWWE.SecondScreenTestSessionsDemo"
+							id="339798bdb4d247b788eb44caa8705580"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\ManageContentNew.UserCode.cs"
+							codeline="133"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:33.016"
+						level="Info"
+						category="Delay">
+							<message>
+								Waiting for 10s.
+							</message>
+							<metainfo
+							itemindex="3"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\ManageContentNew.cs"
+							codeline="117"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:43.093"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left Click item 'ShowsWWE.UiAccordionAccordionHeader6' at 134;7.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='qa.wwe-app.cloud6.wwe.com']//h3[#'ui-accordion-accordion-header-6']"
+							fullname="SecondScreenRepository.ShowsWWE.UiAccordionAccordionHeader6"
+							id="775712ed3e3a46bda0135fc16be7e9a1"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\ManageContentNew.UserCode.cs"
+							codeline="127"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:43.830"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left Click item 'ShowsWWE.HttpQaWweAppCloud6WweComFeedsW' at 14;8.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='qa.wwe-app.cloud6.wwe.com']//form[#'wwe-feed-wweactive-form-tweet']/div/div/table//a[@href~'^http://qa\.wwe-app\.cloud6\.']"
+							fullname="SecondScreenRepository.ShowsWWE.HttpQaWweAppCloud6WweComFeedsW"
+							id="96a583c707974cea8c373563e5f72e31"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\ManageContentNew.UserCode.cs"
+							codeline="121"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:44.750"
+						level="Info"
+						category="Mouse"
+						errimg="images_SecondScreen_20150513_145919\SecondScreen_20150513_145919_4ccc5139_trace.jpg"
+						errthumb="images_SecondScreen_20150513_145919\SecondScreen_20150513_145919_4ccc5139_trace_thumb.jpg">
+							<message>
+								Mouse Left Click item 'ShowsWWE.RTAtSloomzoHAHAHAHAOHHELLYEAHHash' at 107;-1.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='qa.wwe-app.cloud6.wwe.com']//div[#'wwe-browser-si-results']/table//a[@innertext~'^RT\ @Sloomzo:\ HAHAHAHA!!\ O']"
+							fullname="SecondScreenRepository.ShowsWWE.RTAtSloomzoHAHAHAHAOHHELLYEAHHash"
+							id="e7309d7e9d2643f8aa85495e69abbaf4"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\ManageContentNew.UserCode.cs"
+							codeline="115"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:46.963"
+						level="Info"
+						category="Mouse"
+						errimg="images_SecondScreen_20150513_145919\SecondScreen_20150513_145919_5285eba4_trace.jpg"
+						errthumb="images_SecondScreen_20150513_145919\SecondScreen_20150513_145919_5285eba4_trace_thumb.jpg">
+							<message>
+								Mouse Left Down item 'ShowsWWE.HttpQaWweAppCloud6WweComFeedsW1' at 12;14.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='qa.wwe-app.cloud6.wwe.com']//h3[#'ui-accordion-accordion-header-6']/a[2]"
+							fullname="SecondScreenRepository.ShowsWWE.HttpQaWweAppCloud6WweComFeedsW1"
+							id="e72a6617080943e994f92ed30fc3840b"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\ManageContentNew.UserCode.cs"
+							codeline="106"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:47.744"
+						level="Error"
+						category="Module"
+						errimg="images_SecondScreen_20150513_145919\SecondScreen_20150513_145919_65156ee8_trace.jpg"
+						errthumb="images_SecondScreen_20150513_145919\SecondScreen_20150513_145919_65156ee8_trace_thumb.jpg">
+							<message>
+								Parsing RxPath '12;18' failed.<br/>line 1:2 no viable alternative at character ';'<br/>line 1:0 no viable alternative at input '12'&#10;
+							</message>
+							<metainfo
+							stacktrace="   at Ranorex.Core.RxPath..ctor(String path)
+   at Ranorex.Core.Element.op_Implicit(String path)
+   at SecondScreen.ManageContentNew.Mouse_Down_HttpQaWweAppCloud6WweComFeedsW1() in c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\ManageContentNew.UserCode.cs:line 109
+   at SecondScreen.ManageContentNew.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\ManageContentNew.cs:line 129
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\ManageContentNew.UserCode.cs"
+							codeline="109"
+							loglvl="Error"/>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

@@ -1,0 +1,455 @@
+﻿<report>
+	<activity
+	user="mohd.nazim"
+	host="CTNL1134KESHAV"
+	rxversion="5.3.1.22939"
+	osversion="Windows 7 Service Pack 1 32bit"
+	runtimeversion="4.0.30319.17929"
+	procarch="32bit"
+	language="en-US"
+	screenresolution="1366x768"
+	timestamp="5/22/2015 7:27:04 PM"
+	timestampiso="2015-05-22T13:57:04"
+	timeoutfactor="1"
+	result="Success"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="10087cc5b585e5b8"
+	totalerrorcount="0"
+	totalwarningcount="0"
+	totalsuccesscount="2"
+	totalfailedcount="0"
+	totalblockedcount="0">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+		testsuitename="SecondScreen"
+		runconfigname="TestRun"
+		runlabel=""
+		maxchildren="13"
+		result="Success"
+		duration="52.29s"
+		durationms="52292"
+		type="test suite"
+		rid="23353d04fa81b38a"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="2"
+		totalfailedcount="0"
+		totalblockedcount="0">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+			testcasename="OpenManageScreen"
+			testcaseid="e12f671d-a5dc-43a6-a94c-f533eec6c144"
+			datasource="manageScreenNew"
+			iterationcount="2"
+			maxchildren="0"
+			result="Success"
+			duration="41.77s"
+			durationms="41765"
+			type="test case"
+			rid="5fc5c83ad3ccfa0"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+				testcasename="OpenManageScreen"
+				iteration="1"
+				result="Success"
+				duration="41.76s"
+				durationms="41757"
+				type="test case iteration"
+				rid="96de68a80a4f58"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="0">
+					<datarow>
+						<field
+						name="varBrowser">
+							Chrome
+						</field>
+						<field
+						name="varURL">
+							http://wwe-dev.wwe-app.cloud14.wwe.com/feeds/wweactive/manage
+						</field>
+						<field
+						name="varDynamicTime">
+							2000
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+					modulename="OpenManageScreen"
+					moduleid="9d4379d3-5419-41f3-aa66-81fc2e51e5f1"
+					moduletype="Recording"
+					result="Success"
+					duration="41.7s"
+					durationms="41698"
+					type="test module"
+					rid="efca39db5c8d352"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0">
+						<detail>
+						</detail>
+						<varbindings>
+							<varbinding
+							name="varBrowser"
+							value="Chrome"/>
+							<varbinding
+							name="varURL"
+							value="http://wwe-dev.wwe-app.cloud14.wwe.com/feeds/wweactive/manage"/>
+						</varbindings>
+						<item
+						time="00:01.092"
+						level="Info"
+						category="Data">
+							<message>
+								Current variable values:<br/>$varBrowser = 'Chrome', $varURL = 'http://wwe-dev.wwe-app.cloud14.wwe.com/feeds/wweactive/manage'
+							</message>
+							<metainfo
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:01.165"
+						level="Info"
+						category="Website">
+							<message>
+								Opening web site URL in variable $varURL with browser specified by variable $varBrowser in normal mode.
+							</message>
+							<metainfo
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\openManageScreen.UserCode.cs"
+							codeline="44"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:01.481"
+						level="Info"
+						category="Delay">
+							<message>
+								Waiting for 40s.
+							</message>
+							<metainfo
+							itemindex="1"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\openManageScreen.cs"
+							codeline="109"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:41.570"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left Click item 'ShowsWWE.SecondScreenTestSessionsDemo' at 197;13.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//table[#'planning-table']/tbody/tr/td[2]/a[@innertext~'^Second\ Screen\ Test\ Sessio']"
+							fullname="SecondScreenRepository.ShowsWWE.SecondScreenTestSessionsDemo"
+							id="339798bdb4d247b788eb44caa8705580"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\openManageScreen.UserCode.cs"
+							codeline="37"
+							loglvl="Info"/>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+			<activity
+			testcasename="AddContent-Photo"
+			testcaseid="891a7757-20cb-429a-afe5-574de23fe0fa"
+			datasource="TestData"
+			iterationcount="2"
+			maxchildren="0"
+			result="Success"
+			duration="9747ms"
+			durationms="9747"
+			type="test case"
+			rid="118860f8f0acdf08"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+				testcasename="AddContent-Photo"
+				iteration="1"
+				result="Success"
+				duration="9743ms"
+				durationms="9743"
+				type="test case iteration"
+				rid="1699f4ca1472c580"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="0">
+					<datarow>
+						<field
+						name="TestDemo">
+							Test
+						</field>
+						<field
+						name="PhotoNID">
+							26253832
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+					modulename="AddContentPhoto"
+					moduleid="6f4ad8af-d579-46a8-9c14-49024656026a"
+					moduletype="Recording"
+					result="Success"
+					duration="9736ms"
+					durationms="9736"
+					type="test module"
+					rid="c51800f475814ec"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0">
+						<detail>
+						</detail>
+						<varbindings>
+							<varbinding
+							name="varPhotoTitle"
+							value="Test"/>
+							<varbinding
+							name="varPhotoNID"
+							value="26253832"/>
+						</varbindings>
+						<item
+						time="00:42.748"
+						level="Info"
+						category="Data">
+							<message>
+								Current variable values:<br/>$varPhotoTitle = 'Test', $varPhotoNID = '26253832'
+							</message>
+							<metainfo
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:42.814"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left Down item 'ShowsWWE.HttpQaWweAppCloud6WweComFeedsW3' at 60;13.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//h3[#'ui-accordion-accordion-header-4']/a[2]"
+							fullname="SecondScreenRepository.ShowsWWE.HttpQaWweAppCloud6WweComFeedsW3"
+							id="0ef8fe27198045a2808f9763898b7431"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\addContentPhoto.UserCode.cs"
+							codeline="180"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:43.623"
+						level="Info"
+						category="Delay">
+							<message>
+								Waiting for 500ms.
+							</message>
+							<metainfo
+							itemindex="1"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\addContentPhoto.cs"
+							codeline="111"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:44.194"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left Down item 'ShowsWWE.EditPhotoTitle' at 181;12.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//input[#'edit-photo-title']"
+							fullname="SecondScreenRepository.ShowsWWE.EditPhotoTitle"
+							id="1258ffd2a26d49cc91f0ad70b287a811"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\addContentPhoto.UserCode.cs"
+							codeline="173"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:45.054"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left Up item 'ShowsWWE.EditPhotoTitle' at 181;12.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//input[#'edit-photo-title']"
+							fullname="SecondScreenRepository.ShowsWWE.EditPhotoTitle"
+							id="1258ffd2a26d49cc91f0ad70b287a811"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\addContentPhoto.UserCode.cs"
+							codeline="166"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:45.615"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left Down item 'ShowsWWE.EditPhotoTitleStyle' at 104;13.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//select[#'edit-photo-title-style']"
+							fullname="SecondScreenRepository.ShowsWWE.EditPhotoTitleStyle"
+							id="e715a67057a34979b7083eec89fa3b52"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\addContentPhoto.UserCode.cs"
+							codeline="144"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:46.199"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left Up item 'ShowsWWE.EditPhotoTitleStyle' at 104;13.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//select[#'edit-photo-title-style']"
+							fullname="SecondScreenRepository.ShowsWWE.EditPhotoTitleStyle"
+							id="e715a67057a34979b7083eec89fa3b52"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\addContentPhoto.UserCode.cs"
+							codeline="137"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:46.773"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left Down item 'Dropdown' at 86;23.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/container[@caption='dropdown']"
+							fullname="SecondScreenRepository.Dropdown.Self"
+							id="60a84ea3b1da41daa2945ba69fa878ed"
+							timeout="30000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\addContentPhoto.UserCode.cs"
+							codeline="130"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:47.194"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left Up item 'Dropdown' at 86;23.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/container[@caption='dropdown']"
+							fullname="SecondScreenRepository.Dropdown.Self"
+							id="60a84ea3b1da41daa2945ba69fa878ed"
+							timeout="30000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\addContentPhoto.UserCode.cs"
+							codeline="123"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:47.577"
+						level="Info"
+						category="Keyboard">
+							<message>
+								Key sequence '{Back 11}' with focus on 'ShowsWWE.EditPhotoFid'.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//input[#'edit-photo-fid']"
+							fullname="SecondScreenRepository.ShowsWWE.EditPhotoFid"
+							id="71cb5d7cd1f14863b3fb63fb1cf698bb"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\addContentPhoto.UserCode.cs"
+							codeline="270"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:48.176"
+						level="Info"
+						category="Keyboard">
+							<message>
+								Key sequence from variable $varPhotoNID with focus on 'ShowsWWE.EditPhotoFid'.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//input[#'edit-photo-fid']"
+							fullname="SecondScreenRepository.ShowsWWE.EditPhotoFid"
+							id="71cb5d7cd1f14863b3fb63fb1cf698bb"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\addContentPhoto.UserCode.cs"
+							codeline="278"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:49.446"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left Down item 'ShowsWWE.HttpQaWweAppCloud6WweComFeedsW3' at 7;11.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//h3[#'ui-accordion-accordion-header-4']/a[2]"
+							fullname="SecondScreenRepository.ShowsWWE.HttpQaWweAppCloud6WweComFeedsW3"
+							id="0ef8fe27198045a2808f9763898b7431"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\addContentPhoto.UserCode.cs"
+							codeline="45"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:50.975"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left Up item 'ShowsWWE.DropMeWhereIShouldAppear1' at 7;11.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//h3[#'ui-accordion-accordion-header-4']/div[@innertext~'^Drop\ me\ where\ I\ should\ ap']"
+							fullname="SecondScreenRepository.ShowsWWE.DropMeWhereIShouldAppear1"
+							id="ca9430b79be540dc840bd5967c937bd1"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\addContentPhoto.UserCode.cs"
+							codeline="37"
+							loglvl="Info"/>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

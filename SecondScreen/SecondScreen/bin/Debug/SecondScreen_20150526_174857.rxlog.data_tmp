@@ -1,0 +1,876 @@
+﻿<report>
+	<activity
+	user="mohd.nazim"
+	host="CTNL1134KESHAV"
+	rxversion="5.3.1.22939"
+	osversion="Windows 7 Service Pack 1 32bit"
+	runtimeversion="4.0.30319.17929"
+	procarch="32bit"
+	language="en-US"
+	screenresolution="1366x768"
+	timestamp="5/26/2015 5:48:57 PM"
+	timestampiso="2015-05-26T12:18:57"
+	timeoutfactor="1"
+	result="Success"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="10a40ddb1a3a854a"
+	totalerrorcount="0"
+	totalwarningcount="0"
+	totalsuccesscount="3"
+	totalfailedcount="0"
+	totalblockedcount="0">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+		testsuitename="SecondScreen"
+		runconfigname="TestRun"
+		runlabel=""
+		maxchildren="16"
+		result="Success"
+		duration="2.4m"
+		durationms="142194"
+		type="test suite"
+		rid="1ffb9852eead3dac"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="3"
+		totalfailedcount="0"
+		totalblockedcount="0">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+			testcasename="CreateShow"
+			testcaseid="78323514-d4fc-405d-814b-57a31fbe12df"
+			datasource="createShows"
+			iterationcount="2"
+			maxchildren="0"
+			result="Success"
+			duration="1.5m"
+			durationms="87305"
+			type="test case"
+			rid="1ca32ddf952e6b91"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+				testcasename="CreateShow"
+				iteration="1"
+				result="Success"
+				duration="1.5m"
+				durationms="87287"
+				type="test case iteration"
+				rid="984e4954f212700"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="0">
+					<datarow>
+						<field
+						name="varBrowser">
+							Chrome
+						</field>
+						<field
+						name="varURL">
+							http://wwe-dev.wwe-app.cloud14.wwe.com/admin/structure/taxonomy/shows
+						</field>
+						<field
+						name="varShowsName">
+							Auto_Test1
+						</field>
+						<field
+						name="varExternalId">
+							666
+						</field>
+						<field
+						name="varDuration">
+							01:05:45
+						</field>
+						<field
+						name="varDurationMin">
+							05
+						</field>
+						<field
+						name="varDurationSec">
+							33
+						</field>
+						<field
+						name="varDynamicTime">
+							2000
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+					modulename="Recording1"
+					moduleid="36757159-82ec-460b-a847-34b6fb504213"
+					moduletype="Recording"
+					result="Success"
+					duration="1.5m"
+					durationms="87180"
+					type="test module"
+					rid="108f9a05285b44d4"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0">
+						<detail>
+						</detail>
+						<varbindings>
+							<varbinding
+							name="varBrowser"
+							value="Chrome"/>
+							<varbinding
+							name="varURL"
+							value="http://wwe-dev.wwe-app.cloud14.wwe.com/admin/structure/taxonomy/shows"/>
+							<varbinding
+							name="varShowsName"
+							value="Auto_Test1"/>
+							<varbinding
+							name="varExternalId"
+							value="666"/>
+							<varbinding
+							name="varDuration"
+							value="01:05:45"/>
+							<varbinding
+							name="varDurationSec"
+							value="33"/>
+							<varbinding
+							name="varDurationMin"
+							value="05"/>
+						</varbindings>
+						<item
+						time="00:01.175"
+						level="Info"
+						category="Data">
+							<message>
+								Current variable values:<br/>$varBrowser = 'Chrome', $varURL = 'http://wwe-dev.wwe-app.cloud14.wwe.com/admin/structure/taxonomy/shows', $varShowsName = 'Auto_Test1', $varExternalId = '666', $varDuration = '01:05:45', $varDurationSec = '33', $varDurationMin = '05'
+							</message>
+							<metainfo
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:01.247"
+						level="Info"
+						category="Website">
+							<message>
+								Opening web site URL in variable $varURL with browser specified by variable $varBrowser in normal mode.
+							</message>
+							<metainfo
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\Recording1.UserCode.cs"
+							codeline="273"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:01.540"
+						level="Info"
+						category="Delay">
+							<message>
+								Waiting for 40s.
+							</message>
+							<metainfo
+							itemindex="1"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\Recording1.cs"
+							codeline="174"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:41.632"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left Click item 'ShowsWWE.AddTerm' at 56;12.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//div[#'content']//a[@innertext='Add term']"
+							fullname="SecondScreenRepository.ShowsWWE.AddTerm"
+							id="21df83a1e8e24eb3b57ac66e5043ead0"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\Recording1.UserCode.cs"
+							codeline="266"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:46.410"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left Click item 'ShowsWWE.EditName' at 115;14.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//input[#'edit-name']"
+							fullname="SecondScreenRepository.ShowsWWE.EditName"
+							id="00cb4354178d4bff9c795e95ca6d52df"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\Recording1.UserCode.cs"
+							codeline="258"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:46.523"
+						level="Info"
+						category="Keyboard">
+							<message>
+								Key sequence from variable $varShowsName with focus on 'ShowsWWE.EditName'.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//input[#'edit-name']"
+							fullname="SecondScreenRepository.ShowsWWE.EditName"
+							id="00cb4354178d4bff9c795e95ca6d52df"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\Recording1.UserCode.cs"
+							codeline="252"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="01:02.516"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left DoubleClick item 'ShowsWWE.EditFieldExternalIdUnd0Value' at 74;8.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//input[#'edit-field-external-id-und-0-value']"
+							fullname="SecondScreenRepository.ShowsWWE.EditFieldExternalIdUnd0Value"
+							id="e6e0ba3f875f472c8126d897d1d44760"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\Recording1.UserCode.cs"
+							codeline="246"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="01:03.362"
+						level="Info"
+						category="Keyboard">
+							<message>
+								Key sequence from variable $varExternalId with focus on 'ShowsWWE.EditFieldExternalIdUnd0Value'.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//input[#'edit-field-external-id-und-0-value']"
+							fullname="SecondScreenRepository.ShowsWWE.EditFieldExternalIdUnd0Value"
+							id="e6e0ba3f875f472c8126d897d1d44760"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\Recording1.UserCode.cs"
+							codeline="240"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="01:04.016"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left Down item 'ShowsWWE' at 1355;239.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']"
+							fullname="SecondScreenRepository.ShowsWWE.Self"
+							id="275261762b164b00a4f109fd9be2a968"
+							timeout="30000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\Recording1.UserCode.cs"
+							codeline="233"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="01:04.475"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left Up item 'ShowsWWE' at 1365;471.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']"
+							fullname="SecondScreenRepository.ShowsWWE.Self"
+							id="275261762b164b00a4f109fd9be2a968"
+							timeout="30000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\Recording1.UserCode.cs"
+							codeline="226"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="01:04.947"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left Click item 'ShowsWWE.EditFieldDurationUnd0Value' at 390;19.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//input[#'edit-field-duration-und-0-value']"
+							fullname="SecondScreenRepository.ShowsWWE.EditFieldDurationUnd0Value"
+							id="9785eb34ef8a46edbee6bfcde77414ad"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\Recording1.UserCode.cs"
+							codeline="220"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="01:05.597"
+						level="Info"
+						category="Keyboard">
+							<message>
+								Key sequence from variable $varDuration with focus on 'ShowsWWE.EditFieldDurationUnd0Value'.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//input[#'edit-field-duration-und-0-value']"
+							fullname="SecondScreenRepository.ShowsWWE.EditFieldDurationUnd0Value"
+							id="9785eb34ef8a46edbee6bfcde77414ad"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\Recording1.UserCode.cs"
+							codeline="214"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="01:06.745"
+						level="Info"
+						category="Delay">
+							<message>
+								Waiting for 500ms.
+							</message>
+							<metainfo
+							itemindex="11"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\Recording1.cs"
+							codeline="204"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="01:07.316"
+						level="Info"
+						category="Keyboard">
+							<message>
+								Key sequence '{Tab}'.
+							</message>
+							<metainfo
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\Recording1.UserCode.cs"
+							codeline="288"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="01:07.573"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left Click item 'ShowsWWE.Relations' at 44;10.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//fieldset[#'edit-relations']//a[@innertext='Relations']"
+							fullname="SecondScreenRepository.ShowsWWE.Relations"
+							id="7d180fba20bd48898f60ddf14f06f9a8"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\Recording1.UserCode.cs"
+							codeline="195"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="01:10.750"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left DoubleClick item 'ShowsWWE.EditParent' at 391;60.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//select[#'edit-parent']"
+							fullname="SecondScreenRepository.ShowsWWE.EditParent"
+							id="406d09476f5b4bad8ce90755db4ad91a"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\Recording1.UserCode.cs"
+							codeline="188"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="01:11.770"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left Click item 'ShowsWWE.EditParent' at 143;7.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//select[#'edit-parent']"
+							fullname="SecondScreenRepository.ShowsWWE.EditParent"
+							id="406d09476f5b4bad8ce90755db4ad91a"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\Recording1.UserCode.cs"
+							codeline="165"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="01:11.847"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left Click item 'ShowsWWE.EditSubmit' at 53;6.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//input[#'edit-submit']"
+							fullname="SecondScreenRepository.ShowsWWE.EditSubmit"
+							id="39df29c750874ad0add21373f79a10da"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\Recording1.UserCode.cs"
+							codeline="159"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="01:12.498"
+						level="Info"
+						category="Delay">
+							<message>
+								Waiting for 1000ms.
+							</message>
+							<metainfo
+							itemindex="17"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\Recording1.cs"
+							codeline="222"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="01:13.560"
+						level="Info"
+						category="Validation">
+							<message>
+								Validating AttributeEqual (InnerText='
+Created new term .') on item 'ShowsWWE.DivTagCreatedNewTerm'.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//div[#'console']/div[@innertext='Created new term .']"
+							fullname="SecondScreenRepository.ShowsWWE.DivTagCreatedNewTerm"
+							id="245ce3986205429bbf5006900f90ccd9"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\Recording1.UserCode.cs"
+							codeline="153"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="01:27.208"
+						level="Success"
+						category="Validation">
+							<message>
+								Attribute 'InnerText' of element for item 'SecondScreenRepository.ShowsWWE.DivTagCreatedNewTerm' does match the specified value.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//div[#'console']/div[@innertext='Created new term .']"
+							fullname="SecondScreenRepository.ShowsWWE.DivTagCreatedNewTerm"
+							id="245ce3986205429bbf5006900f90ccd9"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\Recording1.UserCode.cs"
+							codeline="154"
+							loglvl="Success"/>
+						</item>
+						<item
+						time="01:27.265"
+						level="Info"
+						category="Delay">
+							<message>
+								Waiting for 1000ms.
+							</message>
+							<metainfo
+							itemindex="19"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\Recording1.cs"
+							codeline="228"
+							loglvl="Info"/>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+			<activity
+			testcasename="OpenManageScreen"
+			testcaseid="e12f671d-a5dc-43a6-a94c-f533eec6c144"
+			datasource="manageScreenNew"
+			iterationcount="2"
+			maxchildren="0"
+			result="Success"
+			duration="41.09s"
+			durationms="41089"
+			type="test case"
+			rid="6a4b6d9c879e503"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+				testcasename="OpenManageScreen"
+				iteration="1"
+				result="Success"
+				duration="41.08s"
+				durationms="41081"
+				type="test case iteration"
+				rid="3db1d9b8d72985"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="0">
+					<datarow>
+						<field
+						name="varBrowser">
+							Chrome
+						</field>
+						<field
+						name="varURL">
+							http://wwe-dev.wwe-app.cloud14.wwe.com/feeds/wweactive/manage
+						</field>
+						<field
+						name="varDynamicTime">
+							2000
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+					modulename="OpenManageScreen"
+					moduleid="9d4379d3-5419-41f3-aa66-81fc2e51e5f1"
+					moduletype="Recording"
+					result="Success"
+					duration="41.01s"
+					durationms="41013"
+					type="test module"
+					rid="3b8dd262a00ec48e"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0">
+						<detail>
+						</detail>
+						<varbindings>
+							<varbinding
+							name="varBrowser"
+							value="Chrome"/>
+							<varbinding
+							name="varURL"
+							value="http://wwe-dev.wwe-app.cloud14.wwe.com/feeds/wweactive/manage"/>
+						</varbindings>
+						<item
+						time="01:29.070"
+						level="Info"
+						category="Data">
+							<message>
+								Current variable values:<br/>$varBrowser = 'Chrome', $varURL = 'http://wwe-dev.wwe-app.cloud14.wwe.com/feeds/wweactive/manage'
+							</message>
+							<metainfo
+							loglvl="Info"/>
+						</item>
+						<item
+						time="01:29.116"
+						level="Info"
+						category="Website">
+							<message>
+								Opening web site URL in variable $varURL with browser specified by variable $varBrowser in normal mode.
+							</message>
+							<metainfo
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\openManageScreen.UserCode.cs"
+							codeline="44"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="01:29.234"
+						level="Info"
+						category="Delay">
+							<message>
+								Waiting for 40s.
+							</message>
+							<metainfo
+							itemindex="1"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\openManageScreen.cs"
+							codeline="109"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="02:09.306"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left Click item 'ShowsWWE.SecondScreenTestSessionsDemo' at 197;13.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//table[#'planning-table']/tbody/tr/td[2]/a[@innertext~'^Second\ Screen\ Test\ Sessio']"
+							fullname="SecondScreenRepository.ShowsWWE.SecondScreenTestSessionsDemo"
+							id="339798bdb4d247b788eb44caa8705580"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\openManageScreen.UserCode.cs"
+							codeline="37"
+							loglvl="Info"/>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+			<activity
+			testcasename="AddContent-InRing"
+			testcaseid="1f7daf2f-8c4d-4bc1-a226-ae2b0b08af6a"
+			datasource="inRing"
+			iterationcount="1"
+			maxchildren="0"
+			result="Success"
+			duration="12.36s"
+			durationms="12362"
+			type="test case"
+			rid="b9d05acbabffbf1"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+				testcasename="AddContent-InRing"
+				iteration="1"
+				result="Success"
+				duration="12.36s"
+				durationms="12357"
+				type="test case iteration"
+				rid="b601beb11d19b3"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="0">
+					<datarow>
+						<field
+						name="ringNID1">
+							26179174
+						</field>
+						<field
+						name="ringNID2">
+							26179258
+						</field>
+						<field
+						name="ringNID3">
+							26179274
+						</field>
+						<field
+						name="ringNID4">
+							26179143
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+					modulename="AddContentInRing"
+					moduleid="31c7471a-4117-420b-a841-8221b3302451"
+					moduletype="Recording"
+					result="Success"
+					duration="12.35s"
+					durationms="12350"
+					type="test module"
+					rid="14f55133fcf7a390"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0">
+						<detail>
+						</detail>
+						<varbindings>
+							<varbinding
+							name="varInRing1"
+							value="26179174"/>
+							<varbinding
+							name="varInRing2"
+							value="26179258"/>
+							<varbinding
+							name="varInRing3"
+							value="26179274"/>
+							<varbinding
+							name="varInRing4"
+							value="26179143"/>
+						</varbindings>
+						<item
+						time="02:10.105"
+						level="Info"
+						category="Data">
+							<message>
+								Current variable values:<br/>$varInRing1 = '26179174', $varInRing2 = '26179258', $varInRing3 = '26179274', $varInRing4 = '26179143'
+							</message>
+							<metainfo
+							loglvl="Info"/>
+						</item>
+						<item
+						time="02:10.164"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left Click item 'ShowsWWE.InTheRing' at 76;14.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//h3[#'ui-accordion-accordion-header-1']/a[@innertext='In The Ring']"
+							fullname="SecondScreenRepository.ShowsWWE.InTheRing"
+							id="1fc6c1df288b42e48dd29388dca4f6e2"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\addContentInRing.UserCode.cs"
+							codeline="105"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="02:11.019"
+						level="Info"
+						category="Keyboard">
+							<message>
+								Key sequence from variable $varInRing1 with focus on 'ShowsWWE.EditIntheringValues0Nid'.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//input[#'edit-inthering-values-0-nid']"
+							fullname="SecondScreenRepository.ShowsWWE.EditIntheringValues0Nid"
+							id="5c2061a9ccd24a418015e230d7ce5ad3"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\addContentInRing.UserCode.cs"
+							codeline="142"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="02:13.283"
+						level="Info"
+						category="Keyboard">
+							<message>
+								Key sequence '{Tab}'.
+							</message>
+							<metainfo
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\addContentInRing.UserCode.cs"
+							codeline="148"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="02:13.761"
+						level="Info"
+						category="Keyboard">
+							<message>
+								Key sequence from variable $varInRing2 with focus on 'ShowsWWE.EditIntheringValues1Nid'.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//input[#'edit-inthering-values-1-nid']"
+							fullname="SecondScreenRepository.ShowsWWE.EditIntheringValues1Nid"
+							id="939bae96ac494d9cb14b17ee7f48c253"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\addContentInRing.UserCode.cs"
+							codeline="135"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="02:15.949"
+						level="Info"
+						category="Keyboard">
+							<message>
+								Key sequence '{Tab}'.
+							</message>
+							<metainfo
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\addContentInRing.UserCode.cs"
+							codeline="148"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="02:16.424"
+						level="Info"
+						category="Keyboard">
+							<message>
+								Key sequence from variable $varInRing3 with focus on 'ShowsWWE.EditIntheringValues2Nid'.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//input[#'edit-inthering-values-2-nid']"
+							fullname="SecondScreenRepository.ShowsWWE.EditIntheringValues2Nid"
+							id="ff64eeb72c594249a183af20eaa6694c"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\addContentInRing.UserCode.cs"
+							codeline="128"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="02:18.603"
+						level="Info"
+						category="Keyboard">
+							<message>
+								Key sequence '{Tab}'.
+							</message>
+							<metainfo
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\addContentInRing.UserCode.cs"
+							codeline="148"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="02:19.073"
+						level="Info"
+						category="Keyboard">
+							<message>
+								Key sequence from variable $varInRing4 with focus on 'ShowsWWE.EditIntheringValues3Nid'.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//input[#'edit-inthering-values-3-nid']"
+							fullname="SecondScreenRepository.ShowsWWE.EditIntheringValues3Nid"
+							id="a1bca417f9314306aa7a4d2b86c6406c"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\addContentInRing.UserCode.cs"
+							codeline="121"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="02:21.305"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left Down item 'ShowsWWE.HttpQaWweAppCloud6WweComFeedsW7' at 11;11.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//h3[#'ui-accordion-accordion-header-1']/a[2]"
+							fullname="SecondScreenRepository.ShowsWWE.HttpQaWweAppCloud6WweComFeedsW7"
+							id="94538964e040412ca69cf3437e2a174c"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\addContentInRing.UserCode.cs"
+							codeline="44"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="02:21.898"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left Up item 'ShowsWWE.DropMeWhereIShouldAppear4' at 11;11.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//h3[#'ui-accordion-accordion-header-1']/div[@innertext~'^Drop\ me\ where\ I\ should\ ap']"
+							fullname="SecondScreenRepository.ShowsWWE.DropMeWhereIShouldAppear4"
+							id="4b2f3e561b3c435386643f0f4b219ad8"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\addContentInRing.UserCode.cs"
+							codeline="37"
+							loglvl="Info"/>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

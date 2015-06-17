@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.3.2.23378"
+id="bc90f409-ed74-4c7a-bf0e-f9cf9f599d48"
+embeddedrepository="false"
+mode="Desktop">
+	<name>
+		OpenActiveScreen
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenActiveScreen"
+	namespace="SecondScreen"/>
+	<variables/>
+	<recorditems>
+		<openwebsiterecorditem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		browser="chrome"
+		args=""
+		maximized="False">
+			<comment/>
+			<bindings/>
+			<url>
+				http://wwe-dev.wwe-app.cloud14.wwe.com/feeds/wweactive
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	name="SecondScreenRepository"
+	id="c54df211-6011-49df-b71c-159e47775b7a"
+	rxversion="5.3.2.23378"
+	relativepath="SecondScreenRepository.rxrep">
+		<codegen
+		classname="SecondScreenRepository"
+		namespace="SecondScreen"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="f70d53b3-03c1-49cf-9a2a-5b61cc40782e"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenActiveScreen.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

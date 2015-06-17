@@ -1,0 +1,255 @@
+﻿<report>
+	<activity
+	user="mohd.nazim"
+	host="CTNL1134KESHAV"
+	rxversion="5.3.1.22939"
+	osversion="Windows 7 Service Pack 1 32bit"
+	runtimeversion="4.0.30319.17929"
+	procarch="32bit"
+	language="en-US"
+	screenresolution="1366x768"
+	timestamp="5/13/2015 7:31:47 PM"
+	timestampiso="2015-05-13T14:01:47"
+	timeoutfactor="1"
+	result="Success"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="7944f7bb4a074dd"
+	totalerrorcount="1"
+	totalwarningcount="0"
+	totalsuccesscount="0"
+	totalfailedcount="1"
+	totalblockedcount="0">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+		testsuitename="SecondScreen"
+		runconfigname="TestRun"
+		runlabel=""
+		maxchildren="4"
+		result="Failed"
+		duration="1.2m"
+		durationms="69597"
+		type="test suite"
+		rid="1cd7c402442daaec"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+			testcasename="ActiveContent"
+			testcaseid="9081b80d-722f-4637-8c2f-1bab3fb72fcb"
+			datasource="activeContent"
+			iterationcount="2"
+			maxchildren="0"
+			result="Failed"
+			duration="1.1m"
+			durationms="68970"
+			type="test case"
+			rid="3011c970b0f8ccf1"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+				testcasename="ActiveContent"
+				iteration="1"
+				result="Failed"
+				duration="1.1m"
+				durationms="68957"
+				type="test case iteration"
+				rid="eb7f3d86636d14c"
+				totalerrorcount="2"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="0">
+					<datarow>
+						<field
+						name="varBrowser">
+							Chrome
+						</field>
+						<field
+						name="varURL">
+							http://qa.wwe-app.cloud6.wwe.com/feeds/wweactive
+						</field>
+						<field
+						name="varDynamicTime">
+							2000
+						</field>
+						<field
+						name="varImg1">
+							D:\CaptureImage\firstImage.png
+						</field>
+						<field
+						name="varImg2">
+							D:\CaptureImage\secondImage.png
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+					modulename="ActiveContent"
+					moduleid="7199a9f2-a87b-4092-9822-856cead99937"
+					moduletype="Recording"
+					result="Failed"
+					duration="1.1m"
+					durationms="68843"
+					type="test module"
+					rid="11ea4fc97fdced48"
+					totalerrorcount="2"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0">
+						<detail>
+						</detail>
+						<errmsg>
+							Failed to find item 'SecondScreenRepository.ShowsWWE.HttpQaWweAppCloud6WweComFStyle'.
+						</errmsg>
+						<varbindings>
+							<varbinding
+							name="varBrowser"
+							value="Chrome"/>
+							<varbinding
+							name="varURL"
+							value="http://qa.wwe-app.cloud6.wwe.com/feeds/wweactive"/>
+							<varbinding
+							name="varImg1"
+							value="D:\CaptureImage\firstImage.png"/>
+							<varbinding
+							name="varImg2"
+							value="D:\CaptureImage\secondImage.png"/>
+						</varbindings>
+						<item
+						time="00:00.905"
+						level="Info"
+						category="Data">
+							<message>
+								Current variable values:<br/>$varBrowser = 'Chrome', $varURL = 'http://qa.wwe-app.cloud6.wwe.com/feeds/wweactive', $varImg1 = 'D:\CaptureImage\firstImage.png', $varImg2 = 'D:\CaptureImage\secondImage.png'
+							</message>
+							<metainfo
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:00.989"
+						level="Info"
+						category="Website">
+							<message>
+								Opening web site URL in variable $varURL with browser specified by variable $varBrowser in normal mode.
+							</message>
+							<metainfo
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\activeContent.UserCode.cs"
+							codeline="56"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:01.294"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left Click item 'ShowsWWE.HttpQaWweAppCloud6WweComFStyle1' at 294;72.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='qa.wwe-app.cloud6.wwe.com']//div[#'content-item-44697-container']/img[@src='http://qa.wwe-app.cloud6.wwe.com/f/styles/active_1/public/wweactive/photo/2015/01/1-7/raw_extra_teaser.jpg']"
+							fullname="SecondScreenRepository.ShowsWWE.HttpQaWweAppCloud6WweComFStyle1"
+							id="c19e0f5f4742432795686fe8416642f3"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\activeContent.cs"
+							codeline="137"
+							itemindex="1"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:08.718"
+						level="Info"
+						category="Validation">
+							<message>
+								Validating CompareImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=874,Height=378}) on item 'ShowsWWE.HttpQaWweAppCloud6WweComFStyle1'.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='qa.wwe-app.cloud6.wwe.com']//div[#'content-item-44697-container']/img[@src='http://qa.wwe-app.cloud6.wwe.com/f/styles/active_1/public/wweactive/photo/2015/01/1-7/raw_extra_teaser.jpg']"
+							fullname="SecondScreenRepository.ShowsWWE.HttpQaWweAppCloud6WweComFStyle1"
+							id="c19e0f5f4742432795686fe8416642f3"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\activeContent.UserCode.cs"
+							codeline="98"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:09.100"
+						level="Success"
+						category="Validation"
+						errimg="images_SecondScreen_20150513_193147\SecondScreen_20150513_193147_562299d8_trace.jpg"
+						errthumb="images_SecondScreen_20150513_193147\SecondScreen_20150513_193147_562299d8_trace_thumb.jpg">
+							<message>
+								Screenshot of item 'SecondScreenRepository.ShowsWWE.HttpQaWweAppCloud6WweComFStyle1' does match the specified image.
+							</message>
+							<metainfo
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\activeContent.UserCode.cs"
+							codeline="99"
+							loglvl="Success"/>
+						</item>
+						<item
+						time="00:09.154"
+						level="Info"
+						category="Mouse"
+						errimg="images_SecondScreen_20150513_193147\SecondScreen_20150513_193147_10a008f0_trace.jpg"
+						errthumb="images_SecondScreen_20150513_193147\SecondScreen_20150513_193147_10a008f0_trace_thumb.jpg">
+							<message>
+								Mouse Left Click item 'ShowsWWE.HttpQaWweAppCloud6WweComFStyle' at 193;71.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='qa.wwe-app.cloud6.wwe.com']//div[#'content-item-44682-container']/img[@src='http://qa.wwe-app.cloud6.wwe.com/f/styles/active_1/public/wweactive/photo/2015/01/1-7/raw_extra_teaser.jpg']"
+							fullname="SecondScreenRepository.ShowsWWE.HttpQaWweAppCloud6WweComFStyle"
+							id="32883449d6924ecd89d325f178fde4e3"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\activeContent.UserCode.cs"
+							codeline="50"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="01:09.579"
+						level="Error"
+						category="Module"
+						errimg="images_SecondScreen_20150513_193147\SecondScreen_20150513_193147_11024b6c_trace.jpg"
+						errthumb="images_SecondScreen_20150513_193147\SecondScreen_20150513_193147_11024b6c_trace_thumb.jpg">
+							<message>
+								Failed to find item 'SecondScreenRepository.ShowsWWE.HttpQaWweAppCloud6WweComFStyle'.<br/>No element found for path '/dom[@domain='qa.wwe-app.cloud6.wwe.com']//div[#'content-item-44682-container']/img[@src='http://qa.wwe-app.cloud6.wwe.com/f/styles/active_1/public/wweactive/photo/2015/01/1-7/raw_extra_teaser.jpg']' within 1m.
+							</message>
+							<metainfo
+							stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at SecondScreen.SecondScreenRepositoryFolders.ShowsWWEAppFolder.get_HttpQaWweAppCloud6WweComFStyle() in c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\SecondScreenRepository.cs:line 883
+   at SecondScreen.ActiveContent.Mouse_Click_HttpQaWweAppCloud6WweComFStyle() in c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\activeContent.UserCode.cs:line 51
+   at SecondScreen.ActiveContent.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\activeContent.cs:line 144
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\activeContent.UserCode.cs"
+							codeline="51"
+							type="repoitem"
+							path="/dom[@domain='qa.wwe-app.cloud6.wwe.com']//div[#'content-item-44682-container']/img[@src='http://qa.wwe-app.cloud6.wwe.com/f/styles/active_1/public/wweactive/photo/2015/01/1-7/raw_extra_teaser.jpg']"
+							fullname="SecondScreenRepository.ShowsWWE.HttpQaWweAppCloud6WweComFStyle"
+							id="32883449d6924ecd89d325f178fde4e3"
+							timeout="60000"
+							loglvl="Error"/>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

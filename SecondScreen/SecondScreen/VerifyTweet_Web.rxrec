@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.3.1.22939"
+id="6aa5c1fe-700f-4fcc-8205-09bc2d7934b1"
+embeddedrepository="false"
+mode="Desktop">
+	<name>
+		VerifyTweet_Web
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="VerifyTweet_Web"
+	namespace="SecondScreen"/>
+	<variables/>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="Mouse_Click_Tweets"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="05193235-1af3-411d-b02b-d7106c30b15c"/>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="Validate_Tweets"
+		varname="">
+			<comment/>
+			<bindings/>
+			<imagebasedlocations>
+				<imagebasedlocation
+				editmode="ValidationEditModeRecorder"
+				screenshotname="Screenshot1"
+				screenshotguid="4910da68-bc82-4db7-b0fb-b5569d179a01"
+				codegenpropertyname="Tweets_Screenshot1"
+				searchpropertyid="1d8cd3ec-a39c-49dc-b236-38f8bf579b66"
+				imagerect="0,0,410,57"
+				imageoptions="1;None;0,0,410,57;True;10000000;0ms">
+					<info
+					sourcename="ElementTree"
+					id="8ab94493-83ac-4103-a436-c57066f3ae75">
+						<path>
+							/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//div[#'tweets']/h2[@innertext='Tweets']
+						</path>
+					</info>
+				</imagebasedlocation>
+			</imagebasedlocations>
+			<arguments
+			id="d0602da4-932d-4d64-90dc-5af8e6a02769"/>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="SecondScreenRepository"
+	id="c54df211-6011-49df-b71c-159e47775b7a"
+	rxversion="5.3.1.22939"
+	relativepath="SecondScreenRepository.rxrep">
+		<codegen
+		classname="SecondScreenRepository"
+		namespace="SecondScreen"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="f70d53b3-03c1-49cf-9a2a-5b61cc40782e"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		VerifyTweet_Web.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

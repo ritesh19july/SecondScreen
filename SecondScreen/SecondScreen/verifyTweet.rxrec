@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.3.2.23378"
+id="76a88830-83de-4e09-8ff7-cf832af97dbf"
+embeddedrepository="false"
+mode="Mobile">
+	<name>
+		verifyTweet
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="VerifyTweet"
+	namespace="SecondScreen"/>
+	<variables/>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="Touch_IconTwitter"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="c2d91e9a-a44c-4d58-89b3-1f03cf54c4a1"/>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="Touch_DivTagHashWWEHashVideoGamesWWE2K15H"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="3bf74cfb-2297-4347-bd2d-a3a4a65d775f"/>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="Validate_IconHomeIconTwitter"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="ac73d3fd-95e2-40c5-a527-18ec17e5c0fe"/>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="SecondScreenRepository"
+	id="c54df211-6011-49df-b71c-159e47775b7a"
+	rxversion="5.3.2.23378"
+	relativepath="SecondScreenRepository.rxrep">
+		<codegen
+		classname="SecondScreenRepository"
+		namespace="SecondScreen"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="f70d53b3-03c1-49cf-9a2a-5b61cc40782e"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		verifyTweet.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.3.2.23378"
+id="beb0118d-124c-46bf-bac7-4fd953a34fde"
+embeddedrepository="false"
+mode="Mobile">
+	<name>
+		verifyPhoto
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="VerifyPhoto"
+	namespace="SecondScreen"/>
+	<variables/>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="Touch_RStringSecondScreen"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="a36770a6-7f06-4f4f-9e1f-fb3658c52fa4"/>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="Validate_ComWweUniverse"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="b0a8bcad-1c4c-4a23-9216-199e9b14c21a"/>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="SecondScreenRepository"
+	id="c54df211-6011-49df-b71c-159e47775b7a"
+	rxversion="5.3.2.23378"
+	relativepath="SecondScreenRepository.rxrep">
+		<codegen
+		classname="SecondScreenRepository"
+		namespace="SecondScreen"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="f70d53b3-03c1-49cf-9a2a-5b61cc40782e"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		verifyPhoto.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

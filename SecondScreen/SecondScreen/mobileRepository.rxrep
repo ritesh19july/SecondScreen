@@ -1,0 +1,55 @@
+﻿<repository
+name="mobileRepository"
+id="83d0a3ee-5dee-495d-b1b2-33bf25f292c8"
+rxversion="5.3.1.22939">
+	<codegen
+	classname="MobileRepository"
+	namespace="SecondScreen"/>
+	<rootfolder
+	name="Root"
+	id="11dcaba6-d52f-4903-8888-66a9f4925eaa"
+	searchtimeout="0ms"
+	capname="unknown"
+	isrooted="True"
+	usecache="True">
+		<appfolder
+		name="ComWweUniverse"
+		id="aa66e8c8-5de7-4943-bdc8-530689e1ae79"
+		searchtimeout="30000ms"
+		capname="mobileapp"
+		refpath="/mobileapp[@title='com.wwe.universe']"
+		addcaps="unknown,mobileapp,androidapp"
+		isrooted="True"
+		usecache="False">
+			<item
+			name="Home"
+			id="7ea2a777-feda-4ea1-97b1-749dfb422369"
+			searchtimeout="30000ms"
+			capname="picture"
+			refpath="/mobileapp[@title='com.wwe.universe']/form[@title='HomeActivity']/toolbar/container/container[@contentdescription='WWE, Navigate up']/container/picture[@rid='home']"
+			addcaps="picture,androidelement,mobileuielement"
+			refimgid="80047664-551c-41e0-8c28-988e0cd4059d">
+				/mobileapp[@title='com.wwe.universe']/?/?/toolbar/?/?/container[@contentdescription='WWE, Navigate up']/?/?/picture[@rid='home']
+			</item>
+			<basepath>
+				/mobileapp[@title='com.wwe.universe']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAAB+klEQVQ4T32TO4sa
+URiGbVMFts0PiJUMBG0iIsGgjWBQQQVBiUQWArYRFLSQBCzEJukVsRZJFYKuSNKqmMVKEPHueBvv
+Cm/Od1aXDXEsHr5z5pz3OZeZUQBQKJVKXiORyOtoNPotHo//SKVS97lcbphMJndsHCeGjGc0n6DM
+o4Bxw4Lber2OM5VKBXq9/hw+85ZxUfCKrf4YJtjqPKRWq2GxWOB0OqnvPs3/T/AyGAyi2Wyi0+lg
+OByiXC6j0Wig2+ui3+8jn8+T4KOc4HkgEIAkSdjtdliv1+h2u+j1ehgMBhiNRiiVSiT4dFFA1e/3
+H+bzOfb7PWazGV+VdjIejyGKIqrVKgk+ywp8Pt9gMp1wgTgR+aoUpGckbLVaJPgqK/B4PH8ocDgc
+HoKThyDtio5GbTY3IytwOBx3tOXtdovpdMqDi8UCy+WS38lms4FGo/kuKzCbzVk6N02moLSUsFqt
+eJCkdDSj0fhbVqDT6b7QKyQBBalSkN4KHet4PILtsiErYPW23W6jVquhUCggk8mAfZ0IhUKwWq0w
+GAx0B81rgnfFYhEqlQp2u53XcDjM2+l0Gm63mwTiNYEmkUjA6/XyT1mr1SKbzcLlciEWi8FkMpHg
+5zXBjc1mkwRBAMH6T6E/8RdDYFwWnNovGO8ZHxhvGMKTsX8AoPgLWAJF9tivivQAAAAASUVORK5C
+YII=
+			</icon>
+		</appfolder>
+		<basepath/>
+	</rootfolder>
+	<variables/>
+</repository>

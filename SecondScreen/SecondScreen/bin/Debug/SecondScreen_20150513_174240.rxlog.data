@@ -1,0 +1,119 @@
+﻿<report>
+	<activity
+	user="mohd.nazim"
+	host="CTNL1134KESHAV"
+	rxversion="5.3.1.22939"
+	osversion="Windows 7 Service Pack 1 32bit"
+	runtimeversion="4.0.30319.17929"
+	procarch="32bit"
+	language="en-US"
+	screenresolution="1366x768"
+	timestamp="5/13/2015 5:42:40 PM"
+	timestampiso="2015-05-13T12:12:40"
+	timeoutfactor="1"
+	result="Success"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="363464d338410b5"
+	totalerrorcount="0"
+	totalwarningcount="0"
+	totalsuccesscount="1"
+	totalfailedcount="0"
+	totalblockedcount="0">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+		testsuitename="SecondScreen"
+		runconfigname="TestRun"
+		runlabel=""
+		maxchildren="4"
+		result="Success"
+		duration="16.89s"
+		durationms="16887"
+		type="test suite"
+		rid="1564435073136ced"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="1"
+		totalfailedcount="0"
+		totalblockedcount="0">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+			testcasename="ImageCompare"
+			testcaseid="48d8e3ee-1c5d-486b-8b81-3483c7351fe5"
+			maxchildren="0"
+			result="Success"
+			duration="16.87s"
+			durationms="16866"
+			type="test case"
+			rid="4a4a926ce5c855f"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+				modulename="ImageCompare"
+				moduleid="5d98e250-d311-452b-8907-5f51b41db211"
+				moduletype="Recording"
+				result="Success"
+				duration="16.84s"
+				durationms="16836"
+				type="test module"
+				rid="d04db288b3347a"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="0">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+					time="00:00.198"
+					level="Info"
+					category="Website">
+						<message>
+							Opening web site 'http://qa.wwe-app.cloud6.wwe.com/feeds/wweactive' with browser 'Chrome'
+						</message>
+						<metainfo
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\ImageCompare.UserCode.cs"
+						codeline="36"
+						loglvl="Info"/>
+					</item>
+					<item
+					time="00:15.504"
+					level="Info"
+					category="Snapshot">
+						<message>
+							Capturing Screenshot from Production URL
+						</message>
+						<metainfo
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\ImageCompare.UserCode.cs"
+						codeline="51"
+						loglvl="Info"/>
+					</item>
+					<item
+					time="00:16.964"
+					level="Success"
+					category="User">
+						<message>
+							Images are Same and clicked successfully
+						</message>
+						<metainfo
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\ImageCompare.UserCode.cs"
+						codeline="63"
+						loglvl="Success"/>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

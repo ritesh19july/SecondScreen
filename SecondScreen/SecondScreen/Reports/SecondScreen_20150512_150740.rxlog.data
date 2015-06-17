@@ -1,0 +1,83 @@
+﻿<report>
+	<activity
+	user="mohd.nazim"
+	host="CTNL1134KESHAV"
+	rxversion="5.3.1.22939"
+	osversion="Windows 7 Service Pack 1 32bit"
+	runtimeversion="4.0.30319.17929"
+	procarch="32bit"
+	language="en-US"
+	screenresolution="1366x768"
+	timestamp="5/12/2015 3:07:40 PM"
+	timestampiso="2015-05-12T09:37:40"
+	timeoutfactor="1"
+	result="Success"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="99f16d4740646d6"
+	totalerrorcount="0"
+	totalwarningcount="0"
+	totalsuccesscount="1"
+	totalfailedcount="0"
+	totalblockedcount="0">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+		testsuitename="SecondScreen"
+		runconfigname="TestRun"
+		runlabel=""
+		maxchildren="5"
+		result="Success"
+		duration="1.8m"
+		durationms="109217"
+		type="test suite"
+		rid="8d259813709ca8a"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="1"
+		totalfailedcount="0"
+		totalblockedcount="0">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+			testcasename="Coding"
+			testcaseid="74f0f043-ac77-469a-a66d-d979f5c1bf5d"
+			maxchildren="0"
+			result="Success"
+			duration="1.8m"
+			durationms="109184"
+			type="test case"
+			rid="623715fc74b27bc"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+				modulename="Coding"
+				moduleid="4444d7f3-c2c4-43a4-85e5-863e32cbf4f3"
+				moduletype="Recording"
+				result="Success"
+				duration="1.8m"
+				durationms="109143"
+				type="test module"
+				rid="aeeb44255871888"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="0">
+					<detail>
+					</detail>
+					<varbindings/>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

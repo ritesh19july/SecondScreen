@@ -1,0 +1,100 @@
+﻿<report>
+	<activity
+	user="mohd.nazim"
+	host="CTNL1134KESHAV"
+	rxversion="5.3.1.22939"
+	osversion="Windows 7 Service Pack 1 32bit"
+	runtimeversion="4.0.30319.17929"
+	procarch="32bit"
+	language="en-US"
+	screenresolution="1366x768"
+	timestamp="5/12/2015 2:27:54 PM"
+	timestampiso="2015-05-12T08:57:54"
+	module="CreateShows"
+	timeoutfactor="1"
+	result="Failed"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="114bdb1fe187cea0"
+	totalerrorcount="1"
+	totalwarningcount="1"
+	totalsuccesscount="0"
+	totalfailedcount="0"
+	totalblockedcount="0">
+		<detail>
+			CreateShows
+		</detail>
+		<varbindings/>
+		<item
+		time="00:00.388"
+		level="Warn"
+		category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>varShowsName, varExternalId, varDuration
+			</message>
+			<metainfo
+			loglvl="Warn"/>
+		</item>
+		<item
+		time="00:00.467"
+		level="Info"
+		category="Website"
+		errimg=".\CreateShows20150512_142748_9fb5fbbf_trace.jpg"
+		errthumb=".\CreateShows20150512_142748_9fb5fbbf_trace_thumb.jpg">
+			<message>
+				Opening web site 'http://qa.wwe-app.cloud6.wwe.com/admin/structure/taxonomy/shows' with browser 'chrome' in normal mode.
+			</message>
+			<metainfo
+			itemindex="0"
+			codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\CreateShows\CreateShows\CreateShows.cs"
+			codeline="121"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:00.584"
+		level="Info"
+		category="Mouse"
+		errimg=".\CreateShows20150512_142748_032ed99c_trace.jpg"
+		errthumb=".\CreateShows20150512_142748_032ed99c_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'ShowsWWE.AddTerm' at 53;10.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/dom[@domain='qa.wwe-app.cloud6.wwe.com']//div[#'content']//a[@innertext='Add term']"
+			fullname="CreateShowsRepository.ShowsWWE.AddTerm"
+			id="b12af109022943e3833f1e569d082005"
+			timeout="60000"
+			codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\CreateShows\CreateShows\CreateShows.cs"
+			codeline="125"
+			itemindex="1"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="01:17.006"
+		level="Error"
+		category="User"
+		errimg=".\CreateShows20150512_142748_8e30fe97_trace.jpg"
+		errthumb=".\CreateShows20150512_142748_8e30fe97_trace_thumb.jpg">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+			loglvl="Error"/>
+		</item>
+		<item
+		time="01:17.308"
+		level="Failure"
+		category="Module"
+		errimg=".\CreateShows20150512_142748_2c02e747_trace.jpg"
+		errthumb=".\CreateShows20150512_142748_2c02e747_trace_thumb.jpg">
+			<message>
+				Thread was being aborted.
+			</message>
+			<metainfo
+			stacktrace="   at System.Drawing.SafeNativeMethods.Gdip.GdipGetImageThumbnail(HandleRef image, Int32 thumbWidth, Int32 thumbHeight, IntPtr&amp; thumbImage, GetThumbnailImageAbort callback, IntPtr callbackdata)&#13;&#10;   at System.Drawing.Image.GetThumbnailImage(Int32 thumbWidth, Int32 thumbHeight, GetThumbnailImageAbort callback, IntPtr callbackData)&#13;&#10;   at Ranorex.Core.XmlLogger.SaveScreenshot(Bitmap img, Int32 thumbWidth, ReportEnvironment reportEnv, String fullImgSuffix, String thumbImgSuffix, Boolean appendImageCount, Int32&amp; imgCnt, Boolean overwriteExisting, String&amp; imgFileName, String&amp; imgThumbFileName)&#13;&#10;   at Ranorex.Core.Reporting.ReportItem.SaveScreenshot(CompressedImage img)&#13;&#10;   at Ranorex.Core.Reporting.TestReport.SaveLocalScreenshotBuffer(Activity mod)&#13;&#10;   at Ranorex.Core.Testing.TestModuleRunner.TrySaveModuleScreenshots()&#13;&#10;   at Ranorex.Core.Testing.TestModuleRunner.RunStandalone(ITestModule module, String reportFilename, Boolean generateReport, String standaloneModuleName, CaseInsensitiveString guid)"
+			loglvl="Failure"/>
+		</item>
+	</activity>
+</report>

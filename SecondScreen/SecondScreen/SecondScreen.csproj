@@ -1,0 +1,627 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{5D1568D3-2A40-4435-BD76-BDCED4A57FFD}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>SecondScreen</RootNamespace>
+    <AssemblyName>SecondScreen</AssemblyName>
+    <RanorexVersion>5</RanorexVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <projectdefaultrepository>7117316a-5c97-438f-af76-250aa5713dc6</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="Ranorex.Core, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.ChromeWeb, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Flex, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Java, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Mobile, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.MozillaWeb, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Msaa, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Office, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Qt, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.RawText, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Sap, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Uia, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Web, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Win32, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.WinForms, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Wpf, Version=$(RanorexVersion)" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="activeContent.cs">
+      <BoundTo>69c5c970-19cd-4e57-997f-1a48621da4ee</BoundTo>
+      <DependentUpon>activeContent.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c2047c49-6237-4dbc-83d1-02b9c9cf6045</id>
+    </Compile>
+    <Compile Include="activeContent.UserCode.cs">
+      <BoundTo>69c5c970-19cd-4e57-997f-1a48621da4ee</BoundTo>
+      <DependentUpon>activeContent.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6a2c7077-df2b-42cc-8e82-7027b4ae90dd</id>
+    </Compile>
+    <Compile Include="addContentInRing.cs">
+      <BoundTo>c05bf1a3-b292-48f0-8d0f-8cab12451568</BoundTo>
+      <DependentUpon>addContentInRing.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1582657f-60ec-4c49-92ec-36dd826e8fa6</id>
+    </Compile>
+    <Compile Include="addContentInRing.UserCode.cs">
+      <BoundTo>c05bf1a3-b292-48f0-8d0f-8cab12451568</BoundTo>
+      <DependentUpon>addContentInRing.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7d79c936-df88-405a-8e54-8939594a02d1</id>
+    </Compile>
+    <Compile Include="addContentPhoto.cs">
+      <BoundTo>77c51164-9ee2-42b5-898f-8a7dc8792eb8</BoundTo>
+      <DependentUpon>addContentPhoto.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8679b8bd-8d0d-413b-9969-fdb6e61f7411</id>
+    </Compile>
+    <Compile Include="addContentPhoto.UserCode.cs">
+      <BoundTo>77c51164-9ee2-42b5-898f-8a7dc8792eb8</BoundTo>
+      <DependentUpon>addContentPhoto.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3c6b30e1-fa93-4730-8192-3d19a00e9951</id>
+    </Compile>
+    <Compile Include="addContentPhotoGroup.cs">
+      <BoundTo>ad7d262f-2745-4e3e-b792-9f4eaf6e91f5</BoundTo>
+      <DependentUpon>addContentPhotoGroup.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8a4d9576-37f4-489c-a7b6-f946787ed069</id>
+    </Compile>
+    <Compile Include="addContentPhotoGroup.UserCode.cs">
+      <BoundTo>ad7d262f-2745-4e3e-b792-9f4eaf6e91f5</BoundTo>
+      <DependentUpon>addContentPhotoGroup.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6f5cd53a-d7ac-4029-80cc-73986d0e9d56</id>
+    </Compile>
+    <Compile Include="addContentTweet.cs">
+      <BoundTo>28f10981-c9a3-46d7-9ab4-6e384bcdd96a</BoundTo>
+      <DependentUpon>addContentTweet.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8da00188-817a-4f44-ab58-47eb059afb36</id>
+    </Compile>
+    <Compile Include="addContentTweet.UserCode.cs">
+      <BoundTo>28f10981-c9a3-46d7-9ab4-6e384bcdd96a</BoundTo>
+      <DependentUpon>addContentTweet.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e7c81166-da53-49af-85c2-409bd8d98c28</id>
+    </Compile>
+    <Compile Include="addContentVideo.cs">
+      <BoundTo>794338a9-da1b-49e3-a0fe-626b45596fa9</BoundTo>
+      <DependentUpon>addContentVideo.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9c31719d-9905-4d42-851a-8e371d62dcdf</id>
+    </Compile>
+    <Compile Include="addContentVideo.UserCode.cs">
+      <BoundTo>794338a9-da1b-49e3-a0fe-626b45596fa9</BoundTo>
+      <DependentUpon>addContentVideo.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b6de5b5c-d283-466f-bc7c-de2e2d8b0090</id>
+    </Compile>
+    <Compile Include="AddContentTrivia.cs">
+      <BoundTo>67370691-3d09-4171-93bf-8a34e5856e36</BoundTo>
+      <DependentUpon>AddContentTrivia.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>48bb6e6b-096e-4bfb-b6c5-55c9f8739016</id>
+    </Compile>
+    <Compile Include="AddContentTrivia.UserCode.cs">
+      <BoundTo>67370691-3d09-4171-93bf-8a34e5856e36</BoundTo>
+      <DependentUpon>AddContentTrivia.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c85af3fd-bb3d-4473-bea4-04bf47e7f779</id>
+    </Compile>
+    <Compile Include="AddContent_Poll.cs">
+      <BoundTo>e72af4ae-b61f-41ef-9a35-a16b4c4e6362</BoundTo>
+      <DependentUpon>AddContent_Poll.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>160fb749-0ca5-41e0-9fbe-310200d70926</id>
+    </Compile>
+    <Compile Include="AddContent_Poll.UserCode.cs">
+      <BoundTo>e72af4ae-b61f-41ef-9a35-a16b4c4e6362</BoundTo>
+      <DependentUpon>AddContent_Poll.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3089b622-c644-45b5-a872-8b2f4d40cf9a</id>
+    </Compile>
+    <Compile Include="AddContent_YouTube.cs">
+      <BoundTo>2792a7e0-228d-46bc-8ce3-d080613eb359</BoundTo>
+      <DependentUpon>AddContent_YouTube.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>85f31c0e-63f7-4bc9-b802-173bd39ec763</id>
+    </Compile>
+    <Compile Include="AddContent_YouTube.UserCode.cs">
+      <BoundTo>2792a7e0-228d-46bc-8ce3-d080613eb359</BoundTo>
+      <DependentUpon>AddContent_YouTube.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>189bc8e8-f079-4d61-93b9-309b92d93f45</id>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <id>704a2fc5-96c8-499e-b4df-96c5df27ee88</id>
+    </Compile>
+    <Compile Include="demo.cs">
+      <BoundTo>1bcc56b4-c79d-483d-a349-aee414c75070</BoundTo>
+      <DependentUpon>demo.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7b8c29bd-a79f-439a-acfa-5367bec4945b</id>
+    </Compile>
+    <Compile Include="demo.UserCode.cs">
+      <BoundTo>1bcc56b4-c79d-483d-a349-aee414c75070</BoundTo>
+      <DependentUpon>demo.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7fd13887-d502-4484-866f-8d7f2227c40d</id>
+    </Compile>
+    <Compile Include="ImageCompare.cs">
+      <BoundTo>36de2252-1e0f-417e-8f47-38bbedf7c9fd</BoundTo>
+      <DependentUpon>ImageCompare.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>acae73ab-a379-4ccd-a6c7-a8884ce0162a</id>
+    </Compile>
+    <Compile Include="ImageCompare.UserCode.cs">
+      <BoundTo>36de2252-1e0f-417e-8f47-38bbedf7c9fd</BoundTo>
+      <DependentUpon>ImageCompare.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8845d6e7-9b84-4a64-aec2-a7cb6f1b4bb1</id>
+    </Compile>
+    <Compile Include="manageContent.cs">
+      <BoundTo>cde4e877-763d-420f-8020-2ac83d36da94</BoundTo>
+      <DependentUpon>manageContent.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b4a462d2-7c33-4b71-b222-15dd9fc50fe3</id>
+    </Compile>
+    <Compile Include="manageContent.UserCode.cs">
+      <BoundTo>cde4e877-763d-420f-8020-2ac83d36da94</BoundTo>
+      <DependentUpon>manageContent.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a64a6d5f-8748-47de-a283-b9bc395d0103</id>
+    </Compile>
+    <Compile Include="ManageContent1.cs">
+      <BoundTo>cd74f69c-e85a-499d-94fc-bf2ec05790ae</BoundTo>
+      <DependentUpon>ManageContent1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a33b1ddb-69e0-4718-a65d-bc220dc6cff0</id>
+    </Compile>
+    <Compile Include="ManageContent1.UserCode.cs">
+      <BoundTo>cd74f69c-e85a-499d-94fc-bf2ec05790ae</BoundTo>
+      <DependentUpon>ManageContent1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>09e53b89-498d-4c5f-878a-0e31d05f71cd</id>
+    </Compile>
+    <Compile Include="ManageContentNew.cs">
+      <BoundTo>75bcd26d-753f-46ff-97c0-c3c23a827654</BoundTo>
+      <DependentUpon>ManageContentNew.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a7d8c3b0-4bb9-440b-92a5-c6f3e1c76566</id>
+    </Compile>
+    <Compile Include="ManageContentNew.UserCode.cs">
+      <BoundTo>75bcd26d-753f-46ff-97c0-c3c23a827654</BoundTo>
+      <DependentUpon>ManageContentNew.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>aa878d29-91ab-47eb-9377-5d03f0e618f9</id>
+    </Compile>
+    <Compile Include="ManageShows.cs">
+      <BoundTo>e377c51f-5097-4250-80cb-472d2fc03a19</BoundTo>
+      <DependentUpon>ManageShows.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>49840894-f697-4c00-a86f-6b8184abf62e</id>
+    </Compile>
+    <Compile Include="ManageShows.UserCode.cs">
+      <BoundTo>e377c51f-5097-4250-80cb-472d2fc03a19</BoundTo>
+      <DependentUpon>ManageShows.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d8c8bd47-ff2a-4d57-8021-4e09abca6045</id>
+    </Compile>
+    <Compile Include="mobileRepository.cs">
+      <BoundTo>0D502A34-2A29-4BC8-966C-0ECF90F49BFF</BoundTo>
+      <DependentUpon>mobileRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>17c81268-c83b-4a10-bc37-7b1dae45414f</id>
+    </Compile>
+    <Compile Include="mobileSecondScreen.cs">
+      <BoundTo>4829ef56-90c4-4e59-923f-be6ac7c5158c</BoundTo>
+      <DependentUpon>mobileSecondScreen.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>803155bf-fd77-4dec-87b5-537142a7be12</id>
+    </Compile>
+    <Compile Include="mobileSecondScreen.UserCode.cs">
+      <BoundTo>4829ef56-90c4-4e59-923f-be6ac7c5158c</BoundTo>
+      <DependentUpon>mobileSecondScreen.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c5e37bc7-38a3-4a99-9c3c-916e238e220d</id>
+    </Compile>
+    <Compile Include="VerifyYouTube_Web.cs">
+      <BoundTo>8840b10d-6bfb-4c0f-9707-74c040449a67</BoundTo>
+      <DependentUpon>VerifyYouTube_Web.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>35086e15-d308-476f-986e-a4bddbc8b63c</id>
+    </Compile>
+    <Compile Include="VerifyYouTube_Web.UserCode.cs">
+      <BoundTo>8840b10d-6bfb-4c0f-9707-74c040449a67</BoundTo>
+      <DependentUpon>VerifyYouTube_Web.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>505d75e7-c50b-4b2f-8e01-bff57e571efe</id>
+    </Compile>
+    <Compile Include="OpenActiveScreen.cs">
+      <BoundTo>e05acf4f-4043-4ca2-9fd1-bc911a1bee16</BoundTo>
+      <DependentUpon>OpenActiveScreen.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b5dff403-1a06-422d-9b5d-3fe20943eb0f</id>
+    </Compile>
+    <Compile Include="OpenActiveScreen.UserCode.cs">
+      <BoundTo>e05acf4f-4043-4ca2-9fd1-bc911a1bee16</BoundTo>
+      <DependentUpon>OpenActiveScreen.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>71900621-3801-4f2f-b683-88cc657aa210</id>
+    </Compile>
+    <Compile Include="openManageScreen.cs">
+      <BoundTo>08123b53-c8f6-4b89-bd96-93b57da92928</BoundTo>
+      <DependentUpon>openManageScreen.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c6dcb8e2-0217-4c18-a311-7d4ef3f93a30</id>
+    </Compile>
+    <Compile Include="openManageScreen.UserCode.cs">
+      <BoundTo>08123b53-c8f6-4b89-bd96-93b57da92928</BoundTo>
+      <DependentUpon>openManageScreen.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5b3db9e1-d8c9-4986-b951-b6b9f4b82e00</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>2810a88f-9934-49c9-8383-2fc57b1363d4</id>
+    </Compile>
+    <Compile Include="Recording1.cs">
+      <BoundTo>d53ade88-46c0-4be0-8e08-b1449ba99553</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>cd4cfdd1-f153-4f3f-9234-bb53d315831b</id>
+    </Compile>
+    <Compile Include="Recording1.UserCode.cs">
+      <BoundTo>d53ade88-46c0-4be0-8e08-b1449ba99553</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b041683e-2bb4-461d-aad0-84cc4a846e74</id>
+    </Compile>
+    <Compile Include="SecondScreenForMobile.cs">
+      <BoundTo>8dd423d6-4f3f-4abd-af64-de1dbfa78269</BoundTo>
+      <DependentUpon>SecondScreenForMobile.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d5812748-8afb-44a1-9c9a-f8387e11e4c1</id>
+    </Compile>
+    <Compile Include="SecondScreenForMobile.UserCode.cs">
+      <BoundTo>8dd423d6-4f3f-4abd-af64-de1dbfa78269</BoundTo>
+      <DependentUpon>SecondScreenForMobile.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>37302676-80ee-475a-8bc2-49dfc7c23819</id>
+    </Compile>
+    <Compile Include="SecondScreenRepository.cs">
+      <BoundTo>7117316a-5c97-438f-af76-250aa5713dc6</BoundTo>
+      <DependentUpon>SecondScreenRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>ee16e405-57b7-4fc2-a405-04377ce60f8e</id>
+    </Compile>
+    <Compile Include="verifyPhoto.cs">
+      <BoundTo>ebcce0b2-aa01-4ed4-89e9-11f108f7b46a</BoundTo>
+      <DependentUpon>verifyPhoto.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f5d8234d-a6e0-4095-9ced-8428ee9e3196</id>
+    </Compile>
+    <Compile Include="verifyPhoto.UserCode.cs">
+      <BoundTo>ebcce0b2-aa01-4ed4-89e9-11f108f7b46a</BoundTo>
+      <DependentUpon>verifyPhoto.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>581716fa-31b2-4f3c-81cd-e9e6aa13543b</id>
+    </Compile>
+    <Compile Include="VerifyPhotoGroup_Web.cs">
+      <BoundTo>85b686f0-ac85-4a4c-b1aa-7291ad5a2882</BoundTo>
+      <DependentUpon>VerifyPhotoGroup_Web.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>cf571bc1-8b69-4850-a670-915a8ea67d17</id>
+    </Compile>
+    <Compile Include="VerifyPhotoGroup_Web.UserCode.cs">
+      <BoundTo>85b686f0-ac85-4a4c-b1aa-7291ad5a2882</BoundTo>
+      <DependentUpon>VerifyPhotoGroup_Web.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f84131d6-956a-45d9-8d6c-7e611a0e5e47</id>
+    </Compile>
+    <Compile Include="VerifyPoll_Web.cs">
+      <BoundTo>30e15cdd-1d7c-4c79-9c61-cb7a767c83f2</BoundTo>
+      <DependentUpon>VerifyPoll_Web.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>89f7f038-c145-42f4-be7b-b15b2f08b236</id>
+    </Compile>
+    <Compile Include="VerifyPoll_Web.UserCode.cs">
+      <BoundTo>30e15cdd-1d7c-4c79-9c61-cb7a767c83f2</BoundTo>
+      <DependentUpon>VerifyPoll_Web.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8a028a0f-2e9b-467e-83b0-34534776abe8</id>
+    </Compile>
+    <Compile Include="verifyTweet.cs">
+      <BoundTo>2d0841fa-a4a3-463e-8f74-ce3fb54edd7a</BoundTo>
+      <DependentUpon>verifyTweet.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5edbbcbc-b82c-4b52-80b1-77db0090d246</id>
+    </Compile>
+    <Compile Include="verifyTweet.UserCode.cs">
+      <BoundTo>2d0841fa-a4a3-463e-8f74-ce3fb54edd7a</BoundTo>
+      <DependentUpon>verifyTweet.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4018d197-6fce-4ae7-b8ff-267352fe3774</id>
+    </Compile>
+    <Compile Include="VerifyTweetText_Web.cs">
+      <BoundTo>d885cb21-3580-417e-b78f-71584315e4d2</BoundTo>
+      <DependentUpon>VerifyTweetText_Web.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>872d44ca-9bfb-472c-9f22-f0dfdfdb90aa</id>
+    </Compile>
+    <Compile Include="VerifyTweetText_Web.UserCode.cs">
+      <BoundTo>d885cb21-3580-417e-b78f-71584315e4d2</BoundTo>
+      <DependentUpon>VerifyTweetText_Web.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>84113be6-01e9-41b7-91a4-86c433511fa1</id>
+    </Compile>
+    <Compile Include="VerifyTweet_Web.cs">
+      <BoundTo>63b83e7f-ffff-4ff7-b120-d5efa705c334</BoundTo>
+      <DependentUpon>VerifyTweet_Web.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4335af11-e1ef-469d-b75b-4dfe69a1ba50</id>
+    </Compile>
+    <Compile Include="VerifyTweet_Web.UserCode.cs">
+      <BoundTo>63b83e7f-ffff-4ff7-b120-d5efa705c334</BoundTo>
+      <DependentUpon>VerifyTweet_Web.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1514e71c-8d98-4b48-b8bb-ec499f59dd01</id>
+    </Compile>
+    <Compile Include="verifyVideo.cs">
+      <BoundTo>c4b488e8-d743-40aa-8887-6b18254f6a34</BoundTo>
+      <DependentUpon>verifyVideo.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e6cdea43-84eb-4676-bdf6-f14c8483a4eb</id>
+    </Compile>
+    <Compile Include="verifyVideo.UserCode.cs">
+      <BoundTo>c4b488e8-d743-40aa-8887-6b18254f6a34</BoundTo>
+      <DependentUpon>verifyVideo.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>591471cb-938f-47b5-b654-538554ec86d9</id>
+    </Compile>
+    <Compile Include="VerifyVideo_Web.cs">
+      <BoundTo>1ba82d8c-3893-4e2e-842b-517394dc9740</BoundTo>
+      <DependentUpon>VerifyVideo_Web.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>31bfd48b-2b0c-4b37-9119-dc335c204fd7</id>
+    </Compile>
+    <Compile Include="VerifyVideo_Web.UserCode.cs">
+      <BoundTo>1ba82d8c-3893-4e2e-842b-517394dc9740</BoundTo>
+      <DependentUpon>VerifyVideo_Web.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0f9ded1c-c06c-4f87-8e87-687818afd3c7</id>
+    </Compile>
+    <None Include="activeContent.rxrec">
+      <BoundTo>7117316a-5c97-438f-af76-250aa5713dc6</BoundTo>
+      <id>69c5c970-19cd-4e57-997f-1a48621da4ee</id>
+      <recordtableid>7199a9f2-a87b-4092-9822-856cead99937</recordtableid>
+    </None>
+    <Content Include="activeContent.xlsx">
+      <BoundTo>cded39fb-137c-435e-a6d6-8f78c2988fb8</BoundTo>
+      <DependentUpon>SecondScreen.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>c63c2e7f-cb1d-4e29-b196-8c6815c7fe35</id>
+    </Content>
+    <None Include="addContentInRing.rxrec">
+      <BoundTo>7117316a-5c97-438f-af76-250aa5713dc6</BoundTo>
+      <id>c05bf1a3-b292-48f0-8d0f-8cab12451568</id>
+      <recordtableid>31c7471a-4117-420b-a841-8221b3302451</recordtableid>
+    </None>
+    <None Include="addContentPhoto.rxrec">
+      <BoundTo>7117316a-5c97-438f-af76-250aa5713dc6</BoundTo>
+      <id>77c51164-9ee2-42b5-898f-8a7dc8792eb8</id>
+      <recordtableid>6f4ad8af-d579-46a8-9c14-49024656026a</recordtableid>
+    </None>
+    <None Include="addContentPhotoGroup.rxrec">
+      <BoundTo>7117316a-5c97-438f-af76-250aa5713dc6</BoundTo>
+      <id>ad7d262f-2745-4e3e-b792-9f4eaf6e91f5</id>
+      <recordtableid>127cb86c-09d0-43c6-9ffa-689c7b68fa48</recordtableid>
+    </None>
+    <None Include="addContentTweet.rxrec">
+      <BoundTo>7117316a-5c97-438f-af76-250aa5713dc6</BoundTo>
+      <id>28f10981-c9a3-46d7-9ab4-6e384bcdd96a</id>
+      <recordtableid>8c8e17f0-d174-425c-b8c2-8aa5fb551e37</recordtableid>
+    </None>
+    <None Include="addContentVideo.rxrec">
+      <BoundTo>7117316a-5c97-438f-af76-250aa5713dc6</BoundTo>
+      <id>794338a9-da1b-49e3-a0fe-626b45596fa9</id>
+      <recordtableid>1194bd2c-4de9-4f2d-96d2-57e7730a3d48</recordtableid>
+    </None>
+    <None Include="AddContentTrivia.rxrec">
+      <BoundTo>7117316a-5c97-438f-af76-250aa5713dc6</BoundTo>
+      <id>67370691-3d09-4171-93bf-8a34e5856e36</id>
+      <recordtableid>1e89e17a-0fcf-407f-bb42-eac7337c3f5f</recordtableid>
+    </None>
+    <None Include="AddContent_Poll.rxrec">
+      <id>e72af4ae-b61f-41ef-9a35-a16b4c4e6362</id>
+      <recordtableid>c1ef8995-760c-4157-a05c-cc0c94fdc404</recordtableid>
+      <BoundTo>7117316a-5c97-438f-af76-250aa5713dc6</BoundTo>
+    </None>
+    <None Include="AddContent_YouTube.rxrec">
+      <BoundTo>7117316a-5c97-438f-af76-250aa5713dc6</BoundTo>
+      <id>2792a7e0-228d-46bc-8ce3-d080613eb359</id>
+      <recordtableid>744d5f8e-ca75-4a9e-b1fe-5e6166b3d849</recordtableid>
+    </None>
+    <Content Include="addTrivia.xlsx">
+      <BoundTo>cded39fb-137c-435e-a6d6-8f78c2988fb8</BoundTo>
+      <DependentUpon>SecondScreen.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>95d534a5-1843-4e27-92d0-bca4e7847d17</id>
+    </Content>
+    <None Include="app.config">
+      <id>91c06915-dcdc-440c-8b8e-5ce54ff4b43d</id>
+    </None>
+    <Content Include="createShows.xlsx">
+      <BoundTo>cded39fb-137c-435e-a6d6-8f78c2988fb8</BoundTo>
+      <DependentUpon>SecondScreen.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>84b14eb3-29d6-4290-a6be-cffa0a7a4217</id>
+    </Content>
+    <None Include="demo.rxrec">
+      <BoundTo>7117316a-5c97-438f-af76-250aa5713dc6</BoundTo>
+      <id>1bcc56b4-c79d-483d-a349-aee414c75070</id>
+      <recordtableid>9b02e4b7-57be-47ec-8cb8-992346a10d3d</recordtableid>
+    </None>
+    <None Include="ImageCompare.rxrec">
+      <BoundTo>7117316a-5c97-438f-af76-250aa5713dc6</BoundTo>
+      <id>36de2252-1e0f-417e-8f47-38bbedf7c9fd</id>
+      <recordtableid>5d98e250-d311-452b-8907-5f51b41db211</recordtableid>
+    </None>
+    <None Include="manageContent.rxrec">
+      <BoundTo>7117316a-5c97-438f-af76-250aa5713dc6</BoundTo>
+      <id>cde4e877-763d-420f-8020-2ac83d36da94</id>
+      <recordtableid>ac4d372b-840f-4c93-a9fc-78f29c5e01bd</recordtableid>
+    </None>
+    <None Include="ManageContent1.rxrec">
+      <BoundTo>7117316a-5c97-438f-af76-250aa5713dc6</BoundTo>
+      <id>cd74f69c-e85a-499d-94fc-bf2ec05790ae</id>
+      <recordtableid>24089430-5a21-4bfc-a3e3-12133950b315</recordtableid>
+    </None>
+    <None Include="ManageContentNew.rxrec">
+      <BoundTo>7117316a-5c97-438f-af76-250aa5713dc6</BoundTo>
+      <id>75bcd26d-753f-46ff-97c0-c3c23a827654</id>
+      <recordtableid>9ddf6a5e-3866-4599-a4c2-46709d916400</recordtableid>
+    </None>
+    <None Include="ManageShows.rxrec">
+      <BoundTo>7117316a-5c97-438f-af76-250aa5713dc6</BoundTo>
+      <id>e377c51f-5097-4250-80cb-472d2fc03a19</id>
+      <recordtableid>9530fbe2-3360-4883-a2e3-96cfa60d04f2</recordtableid>
+    </None>
+    <Content Include="manageShowsNew.xlsx">
+      <BoundTo>cded39fb-137c-435e-a6d6-8f78c2988fb8</BoundTo>
+      <DependentUpon>SecondScreen.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>2575985d-d03e-4f91-8b4b-26d1b4020b48</id>
+    </Content>
+    <None Include="mobileRepository.rximg">
+      <BoundTo>0D502A34-2A29-4BC8-966C-0ECF90F49BFF</BoundTo>
+      <DependentUpon>mobileRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>a538f85d-206a-49d1-b2fc-36fd8db5ad0c</id>
+    </None>
+    <None Include="mobileRepository.rxrep">
+      <id>0D502A34-2A29-4BC8-966C-0ECF90F49BFF</id>
+      <repoid>83d0a3ee-5dee-495d-b1b2-33bf25f292c8</repoid>
+      <reporootid>11dcaba6-d52f-4903-8888-66a9f4925eaa</reporootid>
+    </None>
+    <None Include="mobileSecondScreen.rxrec">
+      <id>4829ef56-90c4-4e59-923f-be6ac7c5158c</id>
+      <recordtableid>f7e3d08b-3598-44d8-8364-a1c827027781</recordtableid>
+      <BoundTo>7117316a-5c97-438f-af76-250aa5713dc6</BoundTo>
+    </None>
+    <None Include="VerifyYouTube_Web.rxrec">
+      <BoundTo>7117316a-5c97-438f-af76-250aa5713dc6</BoundTo>
+      <id>8840b10d-6bfb-4c0f-9707-74c040449a67</id>
+      <recordtableid>f947dc62-2d95-4385-8c8a-356ac13f004a</recordtableid>
+    </None>
+    <None Include="OpenActiveScreen.rxrec">
+      <BoundTo>7117316a-5c97-438f-af76-250aa5713dc6</BoundTo>
+      <id>e05acf4f-4043-4ca2-9fd1-bc911a1bee16</id>
+      <recordtableid>bc90f409-ed74-4c7a-bf0e-f9cf9f599d48</recordtableid>
+    </None>
+    <None Include="openManageScreen.rxrec">
+      <BoundTo>7117316a-5c97-438f-af76-250aa5713dc6</BoundTo>
+      <id>08123b53-c8f6-4b89-bd96-93b57da92928</id>
+      <recordtableid>9d4379d3-5419-41f3-aa66-81fc2e51e5f1</recordtableid>
+    </None>
+    <None Include="Recording1.rxrec">
+      <BoundTo>7117316a-5c97-438f-af76-250aa5713dc6</BoundTo>
+      <id>d53ade88-46c0-4be0-8e08-b1449ba99553</id>
+      <recordtableid>36757159-82ec-460b-a847-34b6fb504213</recordtableid>
+    </None>
+    <None Include="SecondScreenForMobile.rxrec">
+      <BoundTo>0D502A34-2A29-4BC8-966C-0ECF90F49BFF</BoundTo>
+      <id>8dd423d6-4f3f-4abd-af64-de1dbfa78269</id>
+      <recordtableid>aa1cd360-4b50-47ec-962e-397a0d804604</recordtableid>
+    </None>
+    <None Include="SecondScreenRepository.rximg">
+      <BoundTo>7117316a-5c97-438f-af76-250aa5713dc6</BoundTo>
+      <DependentUpon>SecondScreenRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>91d560fe-7499-45bf-b37d-7dc39e6fe29e</id>
+    </None>
+    <None Include="SecondScreenRepository.rxrep">
+      <id>7117316a-5c97-438f-af76-250aa5713dc6</id>
+      <repoid>c54df211-6011-49df-b71c-159e47775b7a</repoid>
+      <reporootid>f70d53b3-03c1-49cf-9a2a-5b61cc40782e</reporootid>
+    </None>
+    <None Include="verifyPhoto.rxrec">
+      <BoundTo>7117316a-5c97-438f-af76-250aa5713dc6</BoundTo>
+      <id>ebcce0b2-aa01-4ed4-89e9-11f108f7b46a</id>
+      <recordtableid>beb0118d-124c-46bf-bac7-4fd953a34fde</recordtableid>
+    </None>
+    <None Include="VerifyPhotoGroup_Web.rxrec">
+      <BoundTo>7117316a-5c97-438f-af76-250aa5713dc6</BoundTo>
+      <id>85b686f0-ac85-4a4c-b1aa-7291ad5a2882</id>
+      <recordtableid>793a9585-2e59-417e-aaea-284949af6019</recordtableid>
+    </None>
+    <None Include="VerifyPoll_Web.rxrec">
+      <BoundTo>7117316a-5c97-438f-af76-250aa5713dc6</BoundTo>
+      <id>30e15cdd-1d7c-4c79-9c61-cb7a767c83f2</id>
+      <recordtableid>16873b84-3474-4d3c-aab9-f96deea23618</recordtableid>
+    </None>
+    <None Include="verifyTweet.rxrec">
+      <BoundTo>7117316a-5c97-438f-af76-250aa5713dc6</BoundTo>
+      <id>2d0841fa-a4a3-463e-8f74-ce3fb54edd7a</id>
+      <recordtableid>76a88830-83de-4e09-8ff7-cf832af97dbf</recordtableid>
+    </None>
+    <None Include="VerifyTweetText_Web.rxrec">
+      <BoundTo>7117316a-5c97-438f-af76-250aa5713dc6</BoundTo>
+      <id>d885cb21-3580-417e-b78f-71584315e4d2</id>
+      <recordtableid>0d0e1ef2-8207-46c2-bacb-a6259c8065de</recordtableid>
+    </None>
+    <None Include="VerifyTweet_Web.rxrec">
+      <BoundTo>7117316a-5c97-438f-af76-250aa5713dc6</BoundTo>
+      <id>63b83e7f-ffff-4ff7-b120-d5efa705c334</id>
+      <recordtableid>6aa5c1fe-700f-4fcc-8205-09bc2d7934b1</recordtableid>
+    </None>
+    <None Include="verifyVideo.rxrec">
+      <BoundTo>7117316a-5c97-438f-af76-250aa5713dc6</BoundTo>
+      <id>c4b488e8-d743-40aa-8887-6b18254f6a34</id>
+      <recordtableid>817dfc88-d5b5-4fd3-bd61-b0945ca02e07</recordtableid>
+    </None>
+    <None Include="VerifyVideo_Web.rxrec">
+      <BoundTo>7117316a-5c97-438f-af76-250aa5713dc6</BoundTo>
+      <id>1ba82d8c-3893-4e2e-842b-517394dc9740</id>
+      <recordtableid>742db51a-6258-457d-a3a1-bf3bd02e4d02</recordtableid>
+    </None>
+    <Content Include="SecondScreen.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>dc28dea0-c6f1-48b5-96d2-876f47bbfaa0</id>
+    </Content>
+    <Content Include="SecondScreen.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>cded39fb-137c-435e-a6d6-8f78c2988fb8</id>
+    </Content>
+  </ItemGroup>
+  <Import Condition="Exists('$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets')" Project="$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets" />
+</Project>

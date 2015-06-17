@@ -1,0 +1,81 @@
+﻿<report>
+	<activity
+	user="mohd.nazim"
+	host="CTNL1134KESHAV"
+	rxversion="5.3.1.22939"
+	osversion="Windows 7 Service Pack 1 32bit"
+	runtimeversion="4.0.30319.17929"
+	procarch="32bit"
+	language="en-US"
+	screenresolution="1366x768"
+	timestamp="5/12/2015 10:11:23 PM"
+	timestampiso="2015-05-12T16:41:23"
+	module="ManageContent"
+	timeoutfactor="1"
+	result="Failed"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="6a3a15cc768d97b"
+	totalerrorcount="1"
+	totalwarningcount="1"
+	totalsuccesscount="0"
+	totalfailedcount="0"
+	totalblockedcount="0">
+		<detail>
+			ManageContent
+		</detail>
+		<varbindings/>
+		<item
+		time="00:00.411"
+		level="Warn"
+		category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>varURL, varBrowser
+			</message>
+			<metainfo
+			loglvl="Warn"/>
+		</item>
+		<item
+		time="00:00.539"
+		level="Info"
+		category="Website"
+		errimg=".\manageContent20150512_221117_ae128b3f_trace.jpg"
+		errthumb=".\manageContent20150512_221117_ae128b3f_trace_thumb.jpg">
+			<message>
+				Opening web site URL in variable $varURL with browser specified by variable $varBrowser in normal mode.
+			</message>
+			<metainfo
+			codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\manageContent.UserCode.cs"
+			codeline="205"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:00.643"
+		level="Info"
+		category="Delay"
+		errimg=".\manageContent20150512_221117_3e683dfd_trace.jpg"
+		errthumb=".\manageContent20150512_221117_3e683dfd_trace_thumb.jpg">
+			<message>
+				Waiting for 20s.
+			</message>
+			<metainfo
+			itemindex="1"
+			codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\manageContent.cs"
+			codeline="111"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:02.512"
+		level="Error"
+		category="User"
+		errimg=".\manageContent20150512_221117_4af0fd63_trace.jpg"
+		errthumb=".\manageContent20150512_221117_4af0fd63_trace_thumb.jpg">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+			loglvl="Error"/>
+		</item>
+	</activity>
+</report>

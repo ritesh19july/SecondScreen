@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.3.2.23378"
+id="9d4379d3-5419-41f3-aa66-81fc2e51e5f1"
+embeddedrepository="false"
+mode="Desktop">
+	<name>
+		openManageScreen
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenManageScreen"
+	namespace="SecondScreen"/>
+	<variables>
+		<var
+		name="varURL"
+		id="75ba8aaa-8baa-4d1a-a9c3-1ee0428b9315">
+			http://qa.wwe-app.cloud6.wwe.com/feeds/wweactive/manage
+		</var>
+		<var
+		name="varBrowser"
+		id="51366588-dd12-4a65-a66f-dc701050e341">
+			Chrome
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="openManageScreen_Open_Browser"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="3045934c-aa9d-49b5-bdf6-e9f8fd400c39"/>
+		</userrecorditem>
+		<explicitdelayitem
+		enabled="True"
+		optional="False"
+		duration="40000ms">
+			<comment/>
+			<bindings/>
+		</explicitdelayitem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="Mouse_Click_SecondScreenTitle"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="23b2515d-2920-41dc-aefa-9b2de83c7a2a"/>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="SecondScreenRepository"
+	id="c54df211-6011-49df-b71c-159e47775b7a"
+	rxversion="5.3.2.23378"
+	relativepath="SecondScreenRepository.rxrep">
+		<codegen
+		classname="SecondScreenRepository"
+		namespace="SecondScreen"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="f70d53b3-03c1-49cf-9a2a-5b61cc40782e"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		openManageScreen.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

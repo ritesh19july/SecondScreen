@@ -1,0 +1,245 @@
+﻿<report>
+	<activity
+	user="mohd.nazim"
+	host="CTNL1134KESHAV"
+	rxversion="5.3.1.22939"
+	osversion="Windows 7 Service Pack 1 32bit"
+	runtimeversion="4.0.30319.17929"
+	procarch="32bit"
+	language="en-US"
+	screenresolution="1366x768"
+	timestamp="5/26/2015 7:28:27 PM"
+	timestampiso="2015-05-26T13:58:27"
+	timeoutfactor="1"
+	result="Success"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="3e22921ef25a95"
+	totalerrorcount="2"
+	totalwarningcount="0"
+	totalsuccesscount="1"
+	totalfailedcount="1"
+	totalblockedcount="0">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+		testsuitename="SecondScreen"
+		runconfigname="TestRun"
+		runlabel=""
+		maxchildren="22"
+		result="Failed"
+		duration="3740ms"
+		durationms="3740"
+		type="test suite"
+		rid="384ec4deba78d28"
+		totalerrorcount="2"
+		totalwarningcount="0"
+		totalsuccesscount="1"
+		totalfailedcount="1"
+		totalblockedcount="0">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+			testcasename="OpenActiveScreen"
+			testcaseid="f6adf08d-9555-478c-843f-7de14b49a085"
+			maxchildren="0"
+			result="Success"
+			duration="547ms"
+			durationms="547"
+			type="test case"
+			rid="19be0c24d628b1b0"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+				modulename="OpenActiveScreen"
+				moduleid="bc90f409-ed74-4c7a-bf0e-f9cf9f599d48"
+				moduletype="Recording"
+				result="Success"
+				duration="497ms"
+				durationms="497"
+				type="test module"
+				rid="12d6a250c2cd598a"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="0">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+					time="00:00.297"
+					level="Info"
+					category="Website">
+						<message>
+							Opening web site 'http://wwe-dev.wwe-app.cloud14.wwe.com/feeds/wweactive' with browser 'chrome' in normal mode.
+						</message>
+						<metainfo
+						itemindex="0"
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\OpenActiveScreen.cs"
+						codeline="82"
+						loglvl="Info"/>
+					</item>
+				</activity>
+			</activity>
+			<activity
+			testcasename="VerifyTweet-Web"
+			testcaseid="a3f49c35-12f6-4e9b-980b-1ba1d225a95f"
+			maxchildren="0"
+			result="Failed"
+			duration="3165ms"
+			durationms="3165"
+			type="test case"
+			rid="2b1db0696b7fb98"
+			totalerrorcount="2"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+				modulename="VerifyTweet_Web"
+				moduleid="6aa5c1fe-700f-4fcc-8205-09bc2d7934b1"
+				moduletype="Recording"
+				result="Failed"
+				duration="3085ms"
+				durationms="3085"
+				type="test module"
+				rid="12bb687d0c51a46c"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="0">
+					<detail>
+					</detail>
+					<errmsg>
+						Screenshot of item 'SecondScreenRepository.ShowsWWE.Tweets' does not match the specified image (failed to capture an image of the element).
+					</errmsg>
+					<varbindings/>
+					<item
+					time="00:00.803"
+					level="Info"
+					category="Mouse">
+						<message>
+							Mouse Left Click item 'ShowsWWE.Tweets' at 111;16.
+						</message>
+						<metainfo
+						type="repoitem"
+						path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//div[#'tweets']/h2[@innertext='Tweets']"
+						fullname="SecondScreenRepository.ShowsWWE.Tweets"
+						id="8ab9449383ac4103a436c57066f3ae75"
+						timeout="60000"
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\VerifyTweet_Web.UserCode.cs"
+						codeline="43"
+						loglvl="Info"/>
+					</item>
+					<item
+					time="00:02.379"
+					level="Info"
+					category="Validation"
+					errimg="C:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\bin\Debug\images_SecondScreen_20150526_192827\SecondScreen_20150526_192827_58010cff_trace.jpg"
+					errthumb="C:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\bin\Debug\images_SecondScreen_20150526_192827\SecondScreen_20150526_192827_58010cff_trace_thumb.jpg">
+						<message>
+							Validating CompareImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=410,Height=57}) on item 'ShowsWWE.Tweets'.
+						</message>
+						<metainfo
+						type="repoitem"
+						path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//div[#'tweets']/h2[@innertext='Tweets']"
+						fullname="SecondScreenRepository.ShowsWWE.Tweets"
+						id="8ab9449383ac4103a436c57066f3ae75"
+						timeout="60000"
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\VerifyTweet_Web.UserCode.cs"
+						codeline="37"
+						loglvl="Info"/>
+					</item>
+					<item
+					time="00:03.609"
+					level="Failure"
+					category="Validation">
+						<message>
+							Screenshot of item 'SecondScreenRepository.ShowsWWE.Tweets' does not match the specified image (failed to capture an image of the element).
+						</message>
+						<metainfo
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\VerifyTweet_Web.UserCode.cs"
+						codeline="38"
+						loglvl="Failure"/>
+					</item>
+					<item
+					time="00:03.750"
+					level="Failure"
+					category="Searched image">
+						<message>
+							(null)
+						</message>
+						<metainfo
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\VerifyTweet_Web.UserCode.cs"
+						codeline="38"
+						loglvl="Failure"/>
+					</item>
+					<item
+					time="00:03.767"
+					level="Error"
+					category="Module">
+						<message>
+							Module execution was aborted because a validation step has failed. Screenshot of item 'SecondScreenRepository.ShowsWWE.Tweets' does not match the specified image (failed to capture an image of the element).
+						</message>
+						<metainfo
+						stacktrace="   at Ranorex.Validate.ValidateImage(ValidateImageMethod validationMethod, Element element, Bitmap image, FindOptions findOptions, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.CompareImage(Element element, Bitmap image, FindOptions findOptions, String message, Options options)
+   at Ranorex.Validate.CompareImage(RepoItemInfo itemInfo, Bitmap image, FindOptions findOptions, String message, Options options)
+   at Ranorex.Validate.CompareImage(RepoItemInfo itemInfo, Bitmap image, FindOptions findOptions)
+   at SecondScreen.VerifyTweet_Web.Validate_Tweets() in c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\VerifyTweet_Web.UserCode.cs:line 38
+   at SecondScreen.VerifyTweet_Web.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\VerifyTweet_Web.cs:line 85
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\VerifyTweet_Web.UserCode.cs"
+						codeline="38"
+						loglvl="Error"/>
+					</item>
+				</activity>
+				<activity
+				modulename="VerifyTweet_Web"
+				moduleid="6aa5c1fe-700f-4fcc-8205-09bc2d7934b1"
+				moduletype="Recording"
+				result="Failed"
+				duration="73ms"
+				durationms="73"
+				type="test module"
+				rid="42acea9f5111bea"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="0">
+					<detail>
+					</detail>
+					<errmsg>
+						A generic error occurred in GDI+.
+					</errmsg>
+					<item
+					time="00:03.889"
+					level="Error"
+					category="Module">
+						<message>
+							A generic error occurred in GDI+.
+						</message>
+						<metainfo
+						stacktrace="   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)&#13;&#10;   at System.Drawing.Image.Save(String filename, ImageFormat format)&#13;&#10;   at Ranorex.Core.XmlLogger.SaveScreenshot(Bitmap img, Int32 thumbWidth, ReportEnvironment reportEnv, String fullImgSuffix, String thumbImgSuffix, Boolean appendImageCount, Int32&amp; imgCnt, Boolean overwriteExisting, String&amp; imgFileName, String&amp; imgThumbFileName)&#13;&#10;   at Ranorex.Core.Reporting.ReportItem.SaveScreenshot(CompressedImage img)&#13;&#10;   at Ranorex.Core.Reporting.TestReport.SaveLocalScreenshotBuffer(Activity mod)&#13;&#10;   at Ranorex.Core.Reporting.TestReport.SaveLocalScreenshotBuffer()&#13;&#10;   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)&#13;&#10;   at Ranorex.Core.Testing.TestSuiteModule.RunWithRepeats(DataContext parentDataContext, ErrorBehavior errorBehavior)&#13;&#10;   at Ranorex.Core.Testing.TestSuiteModule.Run(DataContext parentDataContext, Boolean childSkip)"
+						loglvl="Error"/>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

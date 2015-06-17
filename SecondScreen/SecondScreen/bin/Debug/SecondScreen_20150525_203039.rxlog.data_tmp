@@ -1,0 +1,933 @@
+﻿<report>
+	<activity
+	user="mohd.nazim"
+	host="CTNL1134KESHAV"
+	rxversion="5.3.1.22939"
+	osversion="Windows 7 Service Pack 1 32bit"
+	runtimeversion="4.0.30319.17929"
+	procarch="32bit"
+	language="en-US"
+	screenresolution="1366x768"
+	timestamp="5/25/2015 8:30:39 PM"
+	timestampiso="2015-05-25T15:00:39"
+	timeoutfactor="1"
+	result="Success"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="17317c00b2396a2"
+	totalerrorcount="0"
+	totalwarningcount="0"
+	totalsuccesscount="2"
+	totalfailedcount="0"
+	totalblockedcount="0">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+		testsuitename="SecondScreen"
+		runconfigname="TestRun"
+		runlabel=""
+		maxchildren="16"
+		result="Success"
+		duration="1.2m"
+		durationms="72689"
+		type="test suite"
+		rid="e783d68d56d725c"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="2"
+		totalfailedcount="0"
+		totalblockedcount="0">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+			testcasename="OpenManageScreen"
+			testcaseid="e12f671d-a5dc-43a6-a94c-f533eec6c144"
+			datasource="manageScreenNew"
+			iterationcount="2"
+			maxchildren="0"
+			result="Success"
+			duration="32.14s"
+			durationms="32141"
+			type="test case"
+			rid="1031ecbe99dfcf60"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+				testcasename="OpenManageScreen"
+				iteration="1"
+				result="Success"
+				duration="32.13s"
+				durationms="32129"
+				type="test case iteration"
+				rid="1777162e01c422a1"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="0">
+					<datarow>
+						<field
+						name="varBrowser">
+							Chrome
+						</field>
+						<field
+						name="varURL">
+							http://wwe-dev.wwe-app.cloud14.wwe.com/feeds/wweactive/manage
+						</field>
+						<field
+						name="varDynamicTime">
+							2000
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+					modulename="OpenManageScreen"
+					moduleid="9d4379d3-5419-41f3-aa66-81fc2e51e5f1"
+					moduletype="Recording"
+					result="Success"
+					duration="32.06s"
+					durationms="32059"
+					type="test module"
+					rid="21e9dde0153ed12"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0">
+						<detail>
+						</detail>
+						<varbindings>
+							<varbinding
+							name="varBrowser"
+							value="Chrome"/>
+							<varbinding
+							name="varURL"
+							value="http://wwe-dev.wwe-app.cloud14.wwe.com/feeds/wweactive/manage"/>
+						</varbindings>
+						<item
+						time="00:01.195"
+						level="Info"
+						category="Data">
+							<message>
+								Current variable values:<br/>$varBrowser = 'Chrome', $varURL = 'http://wwe-dev.wwe-app.cloud14.wwe.com/feeds/wweactive/manage'
+							</message>
+							<metainfo
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:01.272"
+						level="Info"
+						category="Website">
+							<message>
+								Opening web site URL in variable $varURL with browser specified by variable $varBrowser in normal mode.
+							</message>
+							<metainfo
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\openManageScreen.UserCode.cs"
+							codeline="44"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:01.573"
+						level="Info"
+						category="Delay">
+							<message>
+								Waiting for 30s.
+							</message>
+							<metainfo
+							itemindex="1"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\openManageScreen.cs"
+							codeline="109"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:31.664"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left Click item 'ShowsWWE.SecondScreenTestSessionsDemo' at 197;13.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//table[#'planning-table']/tbody/tr/td[2]/a[@innertext~'^Second\ Screen\ Test\ Sessio']"
+							fullname="SecondScreenRepository.ShowsWWE.SecondScreenTestSessionsDemo"
+							id="339798bdb4d247b788eb44caa8705580"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\openManageScreen.UserCode.cs"
+							codeline="37"
+							loglvl="Info"/>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+			<activity
+			testcasename="AddContent-Trivia"
+			testcaseid="2ca56cc1-f530-4650-9d3b-16991a691d6c"
+			datasource="addTriviA"
+			iterationcount="1"
+			maxchildren="0"
+			result="Success"
+			duration="39.02s"
+			durationms="39017"
+			type="test case"
+			rid="39a6d0e4c64162"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+				testcasename="AddContent-Trivia"
+				iteration="1"
+				result="Success"
+				duration="39.01s"
+				durationms="39013"
+				type="test case iteration"
+				rid="29f3d0afe60484c8"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="0">
+					<datarow>
+						<field
+						name="varAnswer1">
+							Big E
+						</field>
+						<field
+						name="varAnswer2">
+							John Cena
+						</field>
+						<field
+						name="varAnswer3">
+							Brock Lecner
+						</field>
+						<field
+						name="varAnswer4">
+							Nikki Bela
+						</field>
+						<field
+						name="varCloserLose">
+							26253788
+						</field>
+						<field
+						name="varCloserWin">
+							26254045
+						</field>
+						<field
+						name="varCorrectAns">
+							2
+						</field>
+						<field
+						name="varCorrectText">
+							John Cena
+						</field>
+						<field
+						name="varIncorrectText">
+							Nikki Bela
+						</field>
+						<field
+						name="varOpnerGrahpic">
+							26253697
+						</field>
+						<field
+						name="varQuestion1">
+							who says &quot;u Cant see me&quot;
+						</field>
+						<field
+						name="varTitle">
+							AutoTest
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+					modulename="AddContentTrivia"
+					moduleid="1e89e17a-0fcf-407f-bb42-eac7337c3f5f"
+					moduletype="Recording"
+					result="Success"
+					duration="39s"
+					durationms="39003"
+					type="test module"
+					rid="ae7782be403cdc3"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0">
+						<detail>
+						</detail>
+						<varbindings>
+							<varbinding
+							name="varAnswer1"
+							value="Big E"/>
+							<varbinding
+							name="varAnswer2"
+							value="John Cena"/>
+							<varbinding
+							name="varAnswer3"
+							value="Brock Lecner"/>
+							<varbinding
+							name="varAnswer4"
+							value="Nikki Bela"/>
+							<varbinding
+							name="varCloserLose"
+							value="26253788"/>
+							<varbinding
+							name="varCloserWin"
+							value="26254045"/>
+							<varbinding
+							name="varCorrectAns"
+							value="2"/>
+							<varbinding
+							name="varCorrectText"
+							value="John Cena"/>
+							<varbinding
+							name="varIncorrectText"
+							value="Nikki Bela"/>
+							<varbinding
+							name="varOpenerGraphic"
+							value="26253697"/>
+							<varbinding
+							name="varQuestion1"
+							value="who says &quot;u Cant see me&quot;"/>
+							<varbinding
+							name="varTitle"
+							value="AutoTest"/>
+						</varbindings>
+						<item
+						time="00:33.957"
+						level="Info"
+						category="Data">
+							<message>
+								Current variable values:<br/>$varAnswer1 = 'Big E', $varAnswer2 = 'John Cena', $varAnswer3 = 'Brock Lecner', $varAnswer4 = 'Nikki Bela', $varCloserLose = '26253788', $varCloserWin = '26254045', $varCorrectAns = '2', $varCorrectText = 'John Cena', $varIncorrectText = 'Nikki Bela', $varOpenerGraphic = '26253697', $varQuestion1 = 'who says &quot;u Cant see me&quot;', $varTitle = 'AutoTest'
+							</message>
+							<metainfo
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:34.031"
+						level="Info"
+						category="Mouse">
+							<message>
+								(Optional Action)<br/>Mouse Left Click item 'ShowsWWE.Trivia' at 56;7.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//h3[#'ui-accordion-accordion-header-9']/a[@innertext='Trivia']"
+							fullname="SecondScreenRepository.ShowsWWE.Trivia"
+							id="879851cafbc24ac4a167e6861f06c36d"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\AddContentTrivia.UserCode.cs"
+							codeline="253"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:34.913"
+						level="Info"
+						category="Delay">
+							<message>
+								Waiting for 500ms.
+							</message>
+							<metainfo
+							itemindex="1"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\AddContentTrivia.cs"
+							codeline="241"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:35.503"
+						level="Info"
+						category="Mouse">
+							<message>
+								(Optional Action)<br/>Mouse Left Click item 'ShowsWWE.EditTriviaTitle' at 142;8.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//input[#'edit-trivia-title']"
+							fullname="SecondScreenRepository.ShowsWWE.EditTriviaTitle"
+							id="e98f79f428694a03b02069f2439dd526"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\AddContentTrivia.UserCode.cs"
+							codeline="247"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:36.484"
+						level="Info"
+						category="Keyboard">
+							<message>
+								(Optional Action)<br/>Key sequence from variable $varTitle with focus on 'ShowsWWE.EditTriviaTitle'.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//input[#'edit-trivia-title']"
+							fullname="SecondScreenRepository.ShowsWWE.EditTriviaTitle"
+							id="e98f79f428694a03b02069f2439dd526"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\AddContentTrivia.UserCode.cs"
+							codeline="241"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:37.895"
+						level="Info"
+						category="Mouse">
+							<message>
+								(Optional Action)<br/>Mouse Left Click item 'ShowsWWE.EditTriviaOpenerFid' at 105;7.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//input[#'edit-trivia-opener-fid']"
+							fullname="SecondScreenRepository.ShowsWWE.EditTriviaOpenerFid"
+							id="b99a24284c134c89aa72a88671da9291"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\AddContentTrivia.UserCode.cs"
+							codeline="234"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:38.942"
+						level="Info"
+						category="Keyboard">
+							<message>
+								(Optional Action)<br/>Key sequence '{Back}' with focus on 'ShowsWWE.EditTriviaOpenerFid'.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//input[#'edit-trivia-opener-fid']"
+							fullname="SecondScreenRepository.ShowsWWE.EditTriviaOpenerFid"
+							id="b99a24284c134c89aa72a88671da9291"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\AddContentTrivia.UserCode.cs"
+							codeline="228"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:39.913"
+						level="Info"
+						category="Keyboard">
+							<message>
+								(Optional Action)<br/>Key sequence from variable $varOpenerGraphic with focus on 'ShowsWWE.EditTriviaOpenerFid'.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//input[#'edit-trivia-opener-fid']"
+							fullname="SecondScreenRepository.ShowsWWE.EditTriviaOpenerFid"
+							id="b99a24284c134c89aa72a88671da9291"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\AddContentTrivia.UserCode.cs"
+							codeline="222"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:41.626"
+						level="Info"
+						category="Mouse">
+							<message>
+								(Optional Action)<br/>Mouse Left Down item 'ShowsWWE.WweFeedWweactiveFormTrivia' at 275;66.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//form[#'wwe-feed-wweactive-form-trivia']"
+							fullname="SecondScreenRepository.ShowsWWE.WweFeedWweactiveFormTrivia"
+							id="b5bc5ebbb51743a78858a69e82867dbe"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\AddContentTrivia.UserCode.cs"
+							codeline="215"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:42.340"
+						level="Info"
+						category="Mouse">
+							<message>
+								(Optional Action)<br/>Mouse Left Up item 'ShowsWWE.WweFeedWweactiveFormTrivia' at 281;93.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//form[#'wwe-feed-wweactive-form-trivia']"
+							fullname="SecondScreenRepository.ShowsWWE.WweFeedWweactiveFormTrivia"
+							id="b5bc5ebbb51743a78858a69e82867dbe"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\AddContentTrivia.UserCode.cs"
+							codeline="208"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:43.019"
+						level="Info"
+						category="Mouse">
+							<message>
+								(Optional Action)<br/>Mouse Left Click item 'ShowsWWE.EditTriviaCloserWinFid' at 44;15.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//input[#'edit-trivia-closer-win-fid']"
+							fullname="SecondScreenRepository.ShowsWWE.EditTriviaCloserWinFid"
+							id="3b365eedc9134553be749d57ac1f25e1"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\AddContentTrivia.UserCode.cs"
+							codeline="201"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:44.019"
+						level="Info"
+						category="Keyboard">
+							<message>
+								(Optional Action)<br/>Key sequence from variable $varCloserWin with focus on 'ShowsWWE.EditTriviaCloserWinFid'.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//input[#'edit-trivia-closer-win-fid']"
+							fullname="SecondScreenRepository.ShowsWWE.EditTriviaCloserWinFid"
+							id="3b365eedc9134553be749d57ac1f25e1"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\AddContentTrivia.UserCode.cs"
+							codeline="195"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:45.763"
+						level="Info"
+						category="Mouse">
+							<message>
+								(Optional Action)<br/>Mouse Left Click item 'ShowsWWE.EditTriviaCloserLoseFid' at 62;-1.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//input[#'edit-trivia-closer-lose-fid']"
+							fullname="SecondScreenRepository.ShowsWWE.EditTriviaCloserLoseFid"
+							id="a9c5a1900d0b428e89e8c08f3daf5038"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\AddContentTrivia.UserCode.cs"
+							codeline="189"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:46.998"
+						level="Info"
+						category="Keyboard">
+							<message>
+								(Optional Action)<br/>Key sequence from variable $varCloserLose with focus on 'ShowsWWE.EditTriviaCloserLoseFid'.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//input[#'edit-trivia-closer-lose-fid']"
+							fullname="SecondScreenRepository.ShowsWWE.EditTriviaCloserLoseFid"
+							id="a9c5a1900d0b428e89e8c08f3daf5038"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\AddContentTrivia.UserCode.cs"
+							codeline="183"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:48.732"
+						level="Info"
+						category="Mouse">
+							<message>
+								(Optional Action)<br/>Mouse Left Click item 'ShowsWWE.EditTriviaCloserWinText' at 201;4.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//input[#'edit-trivia-closer-win-text']"
+							fullname="SecondScreenRepository.ShowsWWE.EditTriviaCloserWinText"
+							id="2d0f07c96fd3449680256a50321cc380"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\AddContentTrivia.UserCode.cs"
+							codeline="177"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:49.682"
+						level="Info"
+						category="Keyboard">
+							<message>
+								(Optional Action)<br/>Key sequence from variable $varCorrectText with focus on 'ShowsWWE.EditTriviaCloserWinText'.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//input[#'edit-trivia-closer-win-text']"
+							fullname="SecondScreenRepository.ShowsWWE.EditTriviaCloserWinText"
+							id="2d0f07c96fd3449680256a50321cc380"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\AddContentTrivia.UserCode.cs"
+							codeline="171"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:51.202"
+						level="Info"
+						category="Mouse">
+							<message>
+								(Optional Action)<br/>Mouse Left Down item 'ShowsWWE.WweFeedWweactiveFormTrivia' at 273;70.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//form[#'wwe-feed-wweactive-form-trivia']"
+							fullname="SecondScreenRepository.ShowsWWE.WweFeedWweactiveFormTrivia"
+							id="b5bc5ebbb51743a78858a69e82867dbe"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\AddContentTrivia.UserCode.cs"
+							codeline="164"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:51.908"
+						level="Info"
+						category="Mouse">
+							<message>
+								(Optional Action)<br/>Mouse Left Up item 'ShowsWWE.WweFeedWweactiveFormTrivia' at 280;107.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//form[#'wwe-feed-wweactive-form-trivia']"
+							fullname="SecondScreenRepository.ShowsWWE.WweFeedWweactiveFormTrivia"
+							id="b5bc5ebbb51743a78858a69e82867dbe"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\AddContentTrivia.UserCode.cs"
+							codeline="157"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:52.602"
+						level="Info"
+						category="Mouse">
+							<message>
+								(Optional Action)<br/>Mouse Left Click item 'ShowsWWE.EditTriviaCloserLoseText' at 100;16.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//input[#'edit-trivia-closer-lose-text']"
+							fullname="SecondScreenRepository.ShowsWWE.EditTriviaCloserLoseText"
+							id="ed71a822f9864da0b0ce282e1953a162"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\AddContentTrivia.UserCode.cs"
+							codeline="151"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:53.576"
+						level="Info"
+						category="Keyboard">
+							<message>
+								(Optional Action)<br/>Key sequence from variable $varIncorrectText with focus on 'ShowsWWE.EditTriviaCloserLoseText'.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//input[#'edit-trivia-closer-lose-text']"
+							fullname="SecondScreenRepository.ShowsWWE.EditTriviaCloserLoseText"
+							id="ed71a822f9864da0b0ce282e1953a162"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\AddContentTrivia.UserCode.cs"
+							codeline="145"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:55.201"
+						level="Info"
+						category="Mouse">
+							<message>
+								(Optional Action)<br/>Mouse Left Click item 'ShowsWWE.EditTriviaQ1' at 118;9.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//input[#'edit-trivia-q1']"
+							fullname="SecondScreenRepository.ShowsWWE.EditTriviaQ1"
+							id="d706fda6c8d140da8744850bf0cb62e8"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\AddContentTrivia.UserCode.cs"
+							codeline="139"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:56.118"
+						level="Info"
+						category="Keyboard">
+							<message>
+								(Optional Action)<br/>Key sequence from variable $varQuestion1 with focus on 'ShowsWWE.EditTriviaQ1'.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//input[#'edit-trivia-q1']"
+							fullname="SecondScreenRepository.ShowsWWE.EditTriviaQ1"
+							id="d706fda6c8d140da8744850bf0cb62e8"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\AddContentTrivia.UserCode.cs"
+							codeline="133"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:59.118"
+						level="Info"
+						category="Set Value">
+							<message>
+								(Optional Action)<br/>Setting attribute TagValue to '$varCorrectAns' on item 'ShowsWWE.EditTriviaQ1Correct'.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//select[#'edit-trivia-q1-correct']"
+							fullname="SecondScreenRepository.ShowsWWE.EditTriviaQ1Correct"
+							id="53ce0f6f91d441c1a9d4326a0d67e626"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\AddContentTrivia.UserCode.cs"
+							codeline="127"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:59.331"
+						level="Info"
+						category="Mouse">
+							<message>
+								(Optional Action)<br/>Mouse Left DoubleClick item 'ShowsWWE.EditTriviaQ1A1' at 71;9.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//input[#'edit-trivia-q1-a1']"
+							fullname="SecondScreenRepository.ShowsWWE.EditTriviaQ1A1"
+							id="d2b591a85f424b5dbc1078f9bdd1336d"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\AddContentTrivia.UserCode.cs"
+							codeline="121"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="01:00.383"
+						level="Info"
+						category="Keyboard">
+							<message>
+								(Optional Action)<br/>Key sequence from variable $varAnswer1 with focus on 'ShowsWWE.EditTriviaQ1A1'.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//input[#'edit-trivia-q1-a1']"
+							fullname="SecondScreenRepository.ShowsWWE.EditTriviaQ1A1"
+							id="d2b591a85f424b5dbc1078f9bdd1336d"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\AddContentTrivia.UserCode.cs"
+							codeline="115"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="01:01.357"
+						level="Info"
+						category="Mouse">
+							<message>
+								(Optional Action)<br/>Mouse Left Click item 'ShowsWWE.EditTriviaQ1A2' at 65;3.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//input[#'edit-trivia-q1-a2']"
+							fullname="SecondScreenRepository.ShowsWWE.EditTriviaQ1A2"
+							id="63dd1e7cdc0d45a7b1d6153e34a7ea40"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\AddContentTrivia.UserCode.cs"
+							codeline="109"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="01:02.268"
+						level="Info"
+						category="Keyboard">
+							<message>
+								(Optional Action)<br/>Key sequence from variable $varAnswer2 with focus on 'ShowsWWE.EditTriviaQ1A2'.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//input[#'edit-trivia-q1-a2']"
+							fullname="SecondScreenRepository.ShowsWWE.EditTriviaQ1A2"
+							id="63dd1e7cdc0d45a7b1d6153e34a7ea40"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\AddContentTrivia.UserCode.cs"
+							codeline="103"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="01:03.796"
+						level="Info"
+						category="Mouse">
+							<message>
+								(Optional Action)<br/>Mouse Left Down item 'ShowsWWE.WweFeedWweactiveFormTrivia' at 277;97.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//form[#'wwe-feed-wweactive-form-trivia']"
+							fullname="SecondScreenRepository.ShowsWWE.WweFeedWweactiveFormTrivia"
+							id="b5bc5ebbb51743a78858a69e82867dbe"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\AddContentTrivia.UserCode.cs"
+							codeline="96"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="01:04.493"
+						level="Info"
+						category="Mouse">
+							<message>
+								(Optional Action)<br/>Mouse Left Up item 'ShowsWWE.WweFeedWweactiveFormTrivia' at 279;138.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//form[#'wwe-feed-wweactive-form-trivia']"
+							fullname="SecondScreenRepository.ShowsWWE.WweFeedWweactiveFormTrivia"
+							id="b5bc5ebbb51743a78858a69e82867dbe"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\AddContentTrivia.UserCode.cs"
+							codeline="89"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="01:05.182"
+						level="Info"
+						category="Mouse">
+							<message>
+								(Optional Action)<br/>Mouse Left Click item 'ShowsWWE.EditTriviaQ1A3' at 135;16.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//input[#'edit-trivia-q1-a3']"
+							fullname="SecondScreenRepository.ShowsWWE.EditTriviaQ1A3"
+							id="2aab76d764d74d0983b3f4e832eedac9"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\AddContentTrivia.UserCode.cs"
+							codeline="83"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="01:06.109"
+						level="Info"
+						category="Keyboard">
+							<message>
+								(Optional Action)<br/>Key sequence from variable $varAnswer3 with focus on 'ShowsWWE.EditTriviaQ1A3'.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//input[#'edit-trivia-q1-a3']"
+							fullname="SecondScreenRepository.ShowsWWE.EditTriviaQ1A3"
+							id="2aab76d764d74d0983b3f4e832eedac9"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\AddContentTrivia.UserCode.cs"
+							codeline="77"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="01:07.755"
+						level="Info"
+						category="Mouse">
+							<message>
+								(Optional Action)<br/>Mouse Left Click item 'ShowsWWE.EditTriviaQ1A4' at 127;5.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//input[#'edit-trivia-q1-a4']"
+							fullname="SecondScreenRepository.ShowsWWE.EditTriviaQ1A4"
+							id="6775c5debeb14d1ca556c7404a988ddd"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\AddContentTrivia.UserCode.cs"
+							codeline="71"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="01:08.694"
+						level="Info"
+						category="Keyboard">
+							<message>
+								(Optional Action)<br/>Key sequence from variable $varAnswer4 with focus on 'ShowsWWE.EditTriviaQ1A4'.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//input[#'edit-trivia-q1-a4']"
+							fullname="SecondScreenRepository.ShowsWWE.EditTriviaQ1A4"
+							id="6775c5debeb14d1ca556c7404a988ddd"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\AddContentTrivia.UserCode.cs"
+							codeline="65"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="01:10.327"
+						level="Info"
+						category="Mouse">
+							<message>
+								(Optional Action)<br/>Mouse Left Down item 'ShowsWWE.WweFeedWweactiveFormTrivia' at 279;139.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//form[#'wwe-feed-wweactive-form-trivia']"
+							fullname="SecondScreenRepository.ShowsWWE.WweFeedWweactiveFormTrivia"
+							id="b5bc5ebbb51743a78858a69e82867dbe"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\AddContentTrivia.UserCode.cs"
+							codeline="58"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="01:11.007"
+						level="Info"
+						category="Mouse">
+							<message>
+								(Optional Action)<br/>Mouse Left Up item 'ShowsWWE.Content' at 301;561.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//div[#'block-system-main']/div"
+							fullname="SecondScreenRepository.ShowsWWE.Content"
+							id="cc4fbd730f0b4041b9a87b0d01691a77"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\AddContentTrivia.UserCode.cs"
+							codeline="51"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="01:11.561"
+						level="Info"
+						category="Mouse">
+							<message>
+								(Optional Action)<br/>Mouse Left Down item 'ShowsWWE.HttpWweDevWweAppCloud14WweComF3' at 5;16.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//h3[#'ui-accordion-accordion-header-9']/a[2]"
+							fullname="SecondScreenRepository.ShowsWWE.HttpWweDevWweAppCloud14WweComF3"
+							id="639f9f540214435eaf390519cee80cef"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\AddContentTrivia.UserCode.cs"
+							codeline="44"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="01:12.273"
+						level="Info"
+						category="Mouse">
+							<message>
+								(Optional Action)<br/>Mouse Left Up item 'ShowsWWE.DropMeWhereIShouldAppear7' at 5;16.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//h3[#'ui-accordion-accordion-header-9']/div[@innertext~'^Drop\ me\ where\ I\ should\ ap']"
+							fullname="SecondScreenRepository.ShowsWWE.DropMeWhereIShouldAppear7"
+							id="9ee5c2ab336f4d84bb1055513c69efd3"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\AddContentTrivia.UserCode.cs"
+							codeline="37"
+							loglvl="Info"/>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

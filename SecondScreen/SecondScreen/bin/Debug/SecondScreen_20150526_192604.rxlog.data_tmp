@@ -1,0 +1,338 @@
+﻿<report>
+	<activity
+	user="mohd.nazim"
+	host="CTNL1134KESHAV"
+	rxversion="5.3.1.22939"
+	osversion="Windows 7 Service Pack 1 32bit"
+	runtimeversion="4.0.30319.17929"
+	procarch="32bit"
+	language="en-US"
+	screenresolution="1366x768"
+	timestamp="5/26/2015 7:26:04 PM"
+	timestampiso="2015-05-26T13:56:04"
+	timeoutfactor="1"
+	result="Success"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="9051b6464f9c350"
+	totalerrorcount="0"
+	totalwarningcount="0"
+	totalsuccesscount="2"
+	totalfailedcount="0"
+	totalblockedcount="0">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+		testsuitename="SecondScreen"
+		runconfigname="TestRun"
+		runlabel=""
+		maxchildren="22"
+		result="Success"
+		duration="11.08s"
+		durationms="11075"
+		type="test suite"
+		rid="4cc59687c855420"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="2"
+		totalfailedcount="0"
+		totalblockedcount="0">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+			testcasename="OpenActiveScreen"
+			testcaseid="f6adf08d-9555-478c-843f-7de14b49a085"
+			maxchildren="0"
+			result="Success"
+			duration="574ms"
+			durationms="574"
+			type="test case"
+			rid="e54cd3267f25668"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+				modulename="OpenActiveScreen"
+				moduleid="bc90f409-ed74-4c7a-bf0e-f9cf9f599d48"
+				moduletype="Recording"
+				result="Success"
+				duration="525ms"
+				durationms="525"
+				type="test module"
+				rid="25da6a0285d7ae84"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="0">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+					time="00:00.288"
+					level="Info"
+					category="Website">
+						<message>
+							Opening web site 'http://wwe-dev.wwe-app.cloud14.wwe.com/feeds/wweactive' with browser 'chrome' in normal mode.
+						</message>
+						<metainfo
+						itemindex="0"
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\OpenActiveScreen.cs"
+						codeline="82"
+						loglvl="Info"/>
+					</item>
+				</activity>
+			</activity>
+			<activity
+			testcasename="VerifyTweet-Web"
+			testcaseid="a3f49c35-12f6-4e9b-980b-1ba1d225a95f"
+			maxchildren="0"
+			result="Success"
+			duration="10.47s"
+			durationms="10471"
+			type="test case"
+			rid="13a25d636b8c90e2"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+				modulename="VerifyTweet_Web"
+				moduleid="6aa5c1fe-700f-4fcc-8205-09bc2d7934b1"
+				moduletype="Recording"
+				result="Success"
+				duration="2489ms"
+				durationms="2489"
+				type="test module"
+				rid="47624ab91cc5178"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="0">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+					time="00:00.832"
+					level="Info"
+					category="Mouse">
+						<message>
+							Mouse Left Click item 'ShowsWWE.Tweets' at 111;16.
+						</message>
+						<metainfo
+						type="repoitem"
+						path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//div[#'tweets']/h2[@innertext='Tweets']"
+						fullname="SecondScreenRepository.ShowsWWE.Tweets"
+						id="8ab9449383ac4103a436c57066f3ae75"
+						timeout="60000"
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\VerifyTweet_Web.UserCode.cs"
+						codeline="43"
+						loglvl="Info"/>
+					</item>
+					<item
+					time="00:02.833"
+					level="Info"
+					category="Validation">
+						<message>
+							Validating CompareImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=410,Height=57}) on item 'ShowsWWE.Tweets'.
+						</message>
+						<metainfo
+						type="repoitem"
+						path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//div[#'tweets']/h2[@innertext='Tweets']"
+						fullname="SecondScreenRepository.ShowsWWE.Tweets"
+						id="8ab9449383ac4103a436c57066f3ae75"
+						timeout="60000"
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\VerifyTweet_Web.UserCode.cs"
+						codeline="37"
+						loglvl="Info"/>
+					</item>
+					<item
+					time="00:03.225"
+					level="Success"
+					category="Validation">
+						<message>
+							Screenshot of item 'SecondScreenRepository.ShowsWWE.Tweets' does match the specified image.
+						</message>
+						<metainfo
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\VerifyTweet_Web.UserCode.cs"
+						codeline="38"
+						loglvl="Success"/>
+					</item>
+				</activity>
+				<activity
+				modulename="VerifyTweetText_Web"
+				moduleid="0d0e1ef2-8207-46c2-bacb-a6259c8065de"
+				moduletype="Recording"
+				result="Success"
+				duration="7957ms"
+				durationms="7957"
+				type="test module"
+				rid="3b08c158521f575"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="0">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+					time="00:03.332"
+					level="Info"
+					category="Validation">
+						<message>
+							Validating CompareImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=874,Height=82}) on item 'ShowsWWE.HeaderClearfix1'.
+						</message>
+						<metainfo
+						type="repoitem"
+						path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//div[#'content-item-45835']/div[1]"
+						fullname="SecondScreenRepository.ShowsWWE.HeaderClearfix1"
+						id="4be374252161499583d203c3d2b63b6e"
+						timeout="60000"
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\VerifyTweetText_Web.cs"
+						codeline="82"
+						itemindex="0"
+						loglvl="Info"/>
+					</item>
+					<item
+					time="00:03.629"
+					level="Success"
+					category="Validation">
+						<message>
+							Screenshot of item 'SecondScreenRepository.ShowsWWE.HeaderClearfix1' does match the specified image.
+						</message>
+						<metainfo
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\VerifyTweetText_Web.cs"
+						codeline="83"
+						loglvl="Success"
+						id="4be374252161499583d203c3d2b63b6e"
+						path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//div[#'content-item-45835']/div[1]"
+						fullname="SecondScreenRepository.ShowsWWE.HeaderClearfix1"
+						itemindex="0"/>
+					</item>
+					<item
+					time="00:03.799"
+					level="Info"
+					category="Mouse">
+						<message>
+							Mouse Left Click item 'ShowsWWE.DeviceAndroidRelease131' at 908;545.
+						</message>
+						<metainfo
+						type="repoitem"
+						path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']/body"
+						fullname="SecondScreenRepository.ShowsWWE.DeviceAndroidRelease131"
+						id="0ddd714c36024cd0a4e3965e7bbaede4"
+						timeout="60000"
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\VerifyTweetText_Web.cs"
+						codeline="86"
+						itemindex="1"
+						loglvl="Info"/>
+					</item>
+					<item
+					time="00:04.605"
+					level="Info"
+					category="Keyboard">
+						<message>
+							Key sequence '{Down 6}' with focus on 'ShowsWWE.DeviceAndroidRelease131'.
+						</message>
+						<metainfo
+						type="repoitem"
+						path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']/body"
+						fullname="SecondScreenRepository.ShowsWWE.DeviceAndroidRelease131"
+						id="0ddd714c36024cd0a4e3965e7bbaede4"
+						timeout="60000"
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\VerifyTweetText_Web.cs"
+						codeline="90"
+						itemindex="2"
+						loglvl="Info"/>
+					</item>
+					<item
+					time="00:05.593"
+					level="Info"
+					category="Mouse">
+						<message>
+							Mouse Left Click item 'ShowsWWE.DeviceAndroidRelease131' at 912;550.
+						</message>
+						<metainfo
+						type="repoitem"
+						path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']/body"
+						fullname="SecondScreenRepository.ShowsWWE.DeviceAndroidRelease131"
+						id="0ddd714c36024cd0a4e3965e7bbaede4"
+						timeout="60000"
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\VerifyTweetText_Web.cs"
+						codeline="94"
+						itemindex="3"
+						loglvl="Info"/>
+					</item>
+					<item
+					time="00:06.434"
+					level="Info"
+					category="Keyboard">
+						<message>
+							Key sequence '{Down 20}' with focus on 'ShowsWWE.DeviceAndroidRelease131'.
+						</message>
+						<metainfo
+						type="repoitem"
+						path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']/body"
+						fullname="SecondScreenRepository.ShowsWWE.DeviceAndroidRelease131"
+						id="0ddd714c36024cd0a4e3965e7bbaede4"
+						timeout="60000"
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\VerifyTweetText_Web.cs"
+						codeline="98"
+						itemindex="4"
+						loglvl="Info"/>
+					</item>
+					<item
+					time="00:08.794"
+					level="Info"
+					category="Mouse">
+						<message>
+							Mouse Left Click item 'ShowsWWE.DivTagAtJCLayfieldRomanRigesBitToB' at 817;50.
+						</message>
+						<metainfo
+						type="repoitem"
+						path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//div[#'content-item-45835']/div[@innertext~'^@JCLayfield\.\ Roman\ Riges\ ']"
+						fullname="SecondScreenRepository.ShowsWWE.DivTagAtJCLayfieldRomanRigesBitToB"
+						id="ab257edfcf404a6abe8fd59886b35cff"
+						timeout="60000"
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\VerifyTweetText_Web.cs"
+						codeline="102"
+						itemindex="5"
+						loglvl="Info"/>
+					</item>
+					<item
+					time="00:09.671"
+					level="Info"
+					category="Keyboard">
+						<message>
+							Key sequence '{Down 5}{Down 4}{Down}{Down}{Down}{Down}' with focus on 'ShowsWWE.DeviceAndroidRelease131'.
+						</message>
+						<metainfo
+						type="repoitem"
+						path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']/body"
+						fullname="SecondScreenRepository.ShowsWWE.DeviceAndroidRelease131"
+						id="0ddd714c36024cd0a4e3965e7bbaede4"
+						timeout="60000"
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\VerifyTweetText_Web.cs"
+						codeline="106"
+						itemindex="6"
+						loglvl="Info"/>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

@@ -1,0 +1,456 @@
+﻿<report>
+	<activity
+	user="mohd.nazim"
+	host="CTNL1134KESHAV"
+	rxversion="5.3.1.22939"
+	osversion="Windows 7 Service Pack 1 32bit"
+	runtimeversion="4.0.30319.17929"
+	procarch="32bit"
+	language="en-US"
+	screenresolution="1366x768"
+	timestamp="5/12/2015 2:15:09 PM"
+	timestampiso="2015-05-12T08:45:09"
+	timeoutfactor="1"
+	result="Success"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="11de3279c8f562ac"
+	totalerrorcount="0"
+	totalwarningcount="0"
+	totalsuccesscount="1"
+	totalfailedcount="0"
+	totalblockedcount="0">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+		testsuitename="SecondScreen"
+		runconfigname="TestRun"
+		runlabel=""
+		maxchildren="3"
+		result="Success"
+		duration="43.25s"
+		durationms="43245"
+		type="test suite"
+		rid="1159217535ff558"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="1"
+		totalfailedcount="0"
+		totalblockedcount="0">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+			testcasename="CreateContent"
+			testcaseid="70d6a27d-5bb5-4115-9cc3-1c257aa94adc"
+			maxchildren="0"
+			result="Success"
+			duration="43.15s"
+			durationms="43149"
+			type="test case"
+			rid="9059ad590d0d130"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+				modulename="Recording1"
+				moduleid="da784252-5b9a-4bfb-9d8c-3ef7a1a07509"
+				moduletype="Recording"
+				result="Success"
+				duration="43.08s"
+				durationms="43078"
+				type="test module"
+				rid="44f4314081bfc30"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="0">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+					time="00:00.579"
+					level="Info"
+					category="Website">
+						<message>
+							Opening web site 'http://qa.wwe-app.cloud6.wwe.com/admin/structure/taxonomy/shows' with browser 'chrome' in normal mode.
+						</message>
+						<metainfo
+						itemindex="0"
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\CreateShows\CreateShows\Recording1.cs"
+						codeline="82"
+						loglvl="Info"/>
+					</item>
+					<item
+					time="00:00.949"
+					level="Info"
+					category="Mouse">
+						<message>
+							Mouse Left Click item 'ShowsWWE.AddTerm' at 37;9.
+						</message>
+						<metainfo
+						type="repoitem"
+						path="/dom[@domain='qa.wwe-app.cloud6.wwe.com']//div[#'content']//a[@innertext='Add term']"
+						fullname="CreateShowsRepository.ShowsWWE.AddTerm"
+						id="b12af109022943e3833f1e569d082005"
+						timeout="60000"
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\CreateShows\CreateShows\Recording1.cs"
+						codeline="86"
+						itemindex="1"
+						loglvl="Info"/>
+					</item>
+					<item
+					time="00:13.440"
+					level="Info"
+					category="Mouse">
+						<message>
+							Mouse Left Click item 'ShowsWWE.EditName' at 62;13.
+						</message>
+						<metainfo
+						type="repoitem"
+						path="/dom[@domain='qa.wwe-app.cloud6.wwe.com']//input[#'edit-name']"
+						fullname="CreateShowsRepository.ShowsWWE.EditName"
+						id="5926282889ca4f6d83c4f297f9f2cc05"
+						timeout="60000"
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\CreateShows\CreateShows\Recording1.cs"
+						codeline="90"
+						itemindex="2"
+						loglvl="Info"/>
+					</item>
+					<item
+					time="00:14.702"
+					level="Info"
+					category="Keyboard">
+						<message>
+							Key sequence '{LShiftKey down}T{LShiftKey up}est' with focus on 'ShowsWWE.EditName'.
+						</message>
+						<metainfo
+						type="repoitem"
+						path="/dom[@domain='qa.wwe-app.cloud6.wwe.com']//input[#'edit-name']"
+						fullname="CreateShowsRepository.ShowsWWE.EditName"
+						id="5926282889ca4f6d83c4f297f9f2cc05"
+						timeout="60000"
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\CreateShows\CreateShows\Recording1.cs"
+						codeline="94"
+						itemindex="3"
+						loglvl="Info"/>
+					</item>
+					<item
+					time="00:15.602"
+					level="Info"
+					category="Keyboard">
+						<message>
+							Key sequence '{LShiftKey down}_{LShiftKey up}{LShiftKey down}SS{LShiftKey up}{LShiftKey down}_B{LShiftKey up}y{LShiftKey down}' with focus on 'ShowsWWE.EditName'.
+						</message>
+						<metainfo
+						type="repoitem"
+						path="/dom[@domain='qa.wwe-app.cloud6.wwe.com']//input[#'edit-name']"
+						fullname="CreateShowsRepository.ShowsWWE.EditName"
+						id="5926282889ca4f6d83c4f297f9f2cc05"
+						timeout="60000"
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\CreateShows\CreateShows\Recording1.cs"
+						codeline="98"
+						itemindex="4"
+						loglvl="Info"/>
+					</item>
+					<item
+					time="00:16.784"
+					level="Info"
+					category="Keyboard">
+						<message>
+							Key sequence '{LShiftKey up}{LShiftKey down}' with focus on 'ShowsWWE.EditName'.
+						</message>
+						<metainfo
+						type="repoitem"
+						path="/dom[@domain='qa.wwe-app.cloud6.wwe.com']//input[#'edit-name']"
+						fullname="CreateShowsRepository.ShowsWWE.EditName"
+						id="5926282889ca4f6d83c4f297f9f2cc05"
+						timeout="60000"
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\CreateShows\CreateShows\Recording1.cs"
+						codeline="102"
+						itemindex="5"
+						loglvl="Info"/>
+					</item>
+					<item
+					time="00:17.255"
+					level="Info"
+					category="Keyboard">
+						<message>
+							Key sequence '{LShiftKey up}' with focus on 'ShowsWWE.EditName'.
+						</message>
+						<metainfo
+						type="repoitem"
+						path="/dom[@domain='qa.wwe-app.cloud6.wwe.com']//input[#'edit-name']"
+						fullname="CreateShowsRepository.ShowsWWE.EditName"
+						id="5926282889ca4f6d83c4f297f9f2cc05"
+						timeout="60000"
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\CreateShows\CreateShows\Recording1.cs"
+						codeline="106"
+						itemindex="6"
+						loglvl="Info"/>
+					</item>
+					<item
+					time="00:17.769"
+					level="Info"
+					category="Keyboard">
+						<message>
+							Key sequence '{LShiftKey down}F{LShiftKey up}irst' with focus on 'ShowsWWE.EditName'.
+						</message>
+						<metainfo
+						type="repoitem"
+						path="/dom[@domain='qa.wwe-app.cloud6.wwe.com']//input[#'edit-name']"
+						fullname="CreateShowsRepository.ShowsWWE.EditName"
+						id="5926282889ca4f6d83c4f297f9f2cc05"
+						timeout="60000"
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\CreateShows\CreateShows\Recording1.cs"
+						codeline="110"
+						itemindex="7"
+						loglvl="Info"/>
+					</item>
+					<item
+					time="00:18.752"
+					level="Info"
+					category="Mouse">
+						<message>
+							Mouse Left Click item 'ShowsWWE.EditPathAlias' at 113;1.
+						</message>
+						<metainfo
+						type="repoitem"
+						path="/dom[@domain='qa.wwe-app.cloud6.wwe.com']//input[#'edit-path-alias']"
+						fullname="CreateShowsRepository.ShowsWWE.EditPathAlias"
+						id="707e73b3f0b24a96a9f150ff0462208f"
+						timeout="60000"
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\CreateShows\CreateShows\Recording1.cs"
+						codeline="114"
+						itemindex="8"
+						loglvl="Info"/>
+					</item>
+					<item
+					time="00:19.764"
+					level="Info"
+					category="Mouse">
+						<message>
+							Mouse Left DoubleClick item 'ShowsWWE.EditFieldExternalIdUnd0Value' at 95;10.
+						</message>
+						<metainfo
+						type="repoitem"
+						path="/dom[@domain='qa.wwe-app.cloud6.wwe.com']//input[#'edit-field-external-id-und-0-value']"
+						fullname="CreateShowsRepository.ShowsWWE.EditFieldExternalIdUnd0Value"
+						id="a317843b5b3047439c5a54c542ea5d19"
+						timeout="60000"
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\CreateShows\CreateShows\Recording1.cs"
+						codeline="118"
+						itemindex="9"
+						loglvl="Info"/>
+					</item>
+					<item
+					time="00:20.965"
+					level="Info"
+					category="Keyboard">
+						<message>
+							Key sequence '12' with focus on 'ShowsWWE.EditFieldExternalIdUnd0Value'.
+						</message>
+						<metainfo
+						type="repoitem"
+						path="/dom[@domain='qa.wwe-app.cloud6.wwe.com']//input[#'edit-field-external-id-und-0-value']"
+						fullname="CreateShowsRepository.ShowsWWE.EditFieldExternalIdUnd0Value"
+						id="a317843b5b3047439c5a54c542ea5d19"
+						timeout="60000"
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\CreateShows\CreateShows\Recording1.cs"
+						codeline="122"
+						itemindex="10"
+						loglvl="Info"/>
+					</item>
+					<item
+					time="00:21.632"
+					level="Info"
+					category="Keyboard">
+						<message>
+							Key sequence '{Down}{Down 6}' with focus on 'ShowsWWE.EditFieldExternalIdUnd0Value'.
+						</message>
+						<metainfo
+						type="repoitem"
+						path="/dom[@domain='qa.wwe-app.cloud6.wwe.com']//input[#'edit-field-external-id-und-0-value']"
+						fullname="CreateShowsRepository.ShowsWWE.EditFieldExternalIdUnd0Value"
+						id="a317843b5b3047439c5a54c542ea5d19"
+						timeout="60000"
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\CreateShows\CreateShows\Recording1.cs"
+						codeline="126"
+						itemindex="11"
+						loglvl="Info"/>
+					</item>
+					<item
+					time="00:22.915"
+					level="Info"
+					category="Mouse">
+						<message>
+							Mouse Left Click item 'ShowsWWE' at 1362;418.
+						</message>
+						<metainfo
+						type="repoitem"
+						path="/dom[@domain='qa.wwe-app.cloud6.wwe.com']"
+						fullname="CreateShowsRepository.ShowsWWE.Self"
+						id="1de8a57f864846828a792bd1145650eb"
+						timeout="30000"
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\CreateShows\CreateShows\Recording1.cs"
+						codeline="130"
+						itemindex="12"
+						loglvl="Info"/>
+					</item>
+					<item
+					time="00:23.760"
+					level="Info"
+					category="Mouse">
+						<message>
+							Mouse Left Click item 'ShowsWWE.EditFieldDurationUnd0Value' at 248;15.
+						</message>
+						<metainfo
+						type="repoitem"
+						path="/dom[@domain='qa.wwe-app.cloud6.wwe.com']//input[#'edit-field-duration-und-0-value']"
+						fullname="CreateShowsRepository.ShowsWWE.EditFieldDurationUnd0Value"
+						id="1b0f43a9c8454ec2b7d522d5bc4a1386"
+						timeout="60000"
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\CreateShows\CreateShows\Recording1.cs"
+						codeline="134"
+						itemindex="13"
+						loglvl="Info"/>
+					</item>
+					<item
+					time="00:24.822"
+					level="Info"
+					category="Keyboard">
+						<message>
+							Key sequence '00{RShiftKey down}:{RShiftKey up}' with focus on 'ShowsWWE.EditFieldDurationUnd0Value'.
+						</message>
+						<metainfo
+						type="repoitem"
+						path="/dom[@domain='qa.wwe-app.cloud6.wwe.com']//input[#'edit-field-duration-und-0-value']"
+						fullname="CreateShowsRepository.ShowsWWE.EditFieldDurationUnd0Value"
+						id="1b0f43a9c8454ec2b7d522d5bc4a1386"
+						timeout="60000"
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\CreateShows\CreateShows\Recording1.cs"
+						codeline="138"
+						itemindex="14"
+						loglvl="Info"/>
+					</item>
+					<item
+					time="00:25.719"
+					level="Info"
+					category="Keyboard">
+						<message>
+							Key sequence '05{RShiftKey down}:{RShiftKey up}' with focus on 'ShowsWWE.EditFieldDurationUnd0Value'.
+						</message>
+						<metainfo
+						type="repoitem"
+						path="/dom[@domain='qa.wwe-app.cloud6.wwe.com']//input[#'edit-field-duration-und-0-value']"
+						fullname="CreateShowsRepository.ShowsWWE.EditFieldDurationUnd0Value"
+						id="1b0f43a9c8454ec2b7d522d5bc4a1386"
+						timeout="60000"
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\CreateShows\CreateShows\Recording1.cs"
+						codeline="142"
+						itemindex="15"
+						loglvl="Info"/>
+					</item>
+					<item
+					time="00:26.651"
+					level="Info"
+					category="Keyboard">
+						<message>
+							Key sequence '45' with focus on 'ShowsWWE.EditFieldDurationUnd0Value'.
+						</message>
+						<metainfo
+						type="repoitem"
+						path="/dom[@domain='qa.wwe-app.cloud6.wwe.com']//input[#'edit-field-duration-und-0-value']"
+						fullname="CreateShowsRepository.ShowsWWE.EditFieldDurationUnd0Value"
+						id="1b0f43a9c8454ec2b7d522d5bc4a1386"
+						timeout="60000"
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\CreateShows\CreateShows\Recording1.cs"
+						codeline="146"
+						itemindex="16"
+						loglvl="Info"/>
+					</item>
+					<item
+					time="00:27.360"
+					level="Info"
+					category="Mouse">
+						<message>
+							Mouse Left Click item 'ShowsWWE.Relations' at 25;11.
+						</message>
+						<metainfo
+						type="repoitem"
+						path="/dom[@domain='qa.wwe-app.cloud6.wwe.com']//fieldset[#'edit-relations']//a[@innertext='Relations']"
+						fullname="CreateShowsRepository.ShowsWWE.Relations"
+						id="7e877919ccac493b8c03384f177cf4ee"
+						timeout="60000"
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\CreateShows\CreateShows\Recording1.cs"
+						codeline="150"
+						itemindex="17"
+						loglvl="Info"/>
+					</item>
+					<item
+					time="00:28.480"
+					level="Info"
+					category="Mouse">
+						<message>
+							Mouse Left Click item 'ShowsWWE.EditParent' at 53;47.
+						</message>
+						<metainfo
+						type="repoitem"
+						path="/dom[@domain='qa.wwe-app.cloud6.wwe.com']//select[#'edit-parent']"
+						fullname="CreateShowsRepository.ShowsWWE.EditParent"
+						id="100e30c80a4f4dbdaf8b23f82eb83c67"
+						timeout="60000"
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\CreateShows\CreateShows\Recording1.cs"
+						codeline="154"
+						itemindex="18"
+						loglvl="Info"/>
+					</item>
+					<item
+					time="00:29.538"
+					level="Info"
+					category="Mouse">
+						<message>
+							Mouse Left Click item 'ShowsWWE.EditSubmit' at 47;7.
+						</message>
+						<metainfo
+						type="repoitem"
+						path="/dom[@domain='qa.wwe-app.cloud6.wwe.com']//input[#'edit-submit']"
+						fullname="CreateShowsRepository.ShowsWWE.EditSubmit"
+						id="bf687f910da94a259ef12a9d153ea3e3"
+						timeout="60000"
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\CreateShows\CreateShows\Recording1.cs"
+						codeline="158"
+						itemindex="19"
+						loglvl="Info"/>
+					</item>
+					<item
+					time="00:30.559"
+					level="Info"
+					category="Mouse">
+						<message>
+							Mouse Left Click item 'ShowsWWE.DivTagCreatedNewTerm' at 268;19.
+						</message>
+						<metainfo
+						type="repoitem"
+						path="/dom[@domain='qa.wwe-app.cloud6.wwe.com']//div[#'console']/div[@innertext='Created new term .']"
+						fullname="CreateShowsRepository.ShowsWWE.DivTagCreatedNewTerm"
+						id="916c2ec755644def9f6412e4506894ae"
+						timeout="60000"
+						codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\CreateShows\CreateShows\Recording1.cs"
+						codeline="162"
+						itemindex="20"
+						loglvl="Info"/>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

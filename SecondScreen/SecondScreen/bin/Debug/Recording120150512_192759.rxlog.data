@@ -1,0 +1,81 @@
+﻿<report>
+	<activity
+	user="mohd.nazim"
+	host="CTNL1134KESHAV"
+	rxversion="5.3.1.22939"
+	osversion="Windows 7 Service Pack 1 32bit"
+	runtimeversion="4.0.30319.17929"
+	procarch="32bit"
+	language="en-US"
+	screenresolution="1366x768"
+	timestamp="5/12/2015 7:28:05 PM"
+	timestampiso="2015-05-12T13:58:05"
+	module="Recording1"
+	timeoutfactor="1"
+	result="Failed"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="1cce86f7d7b87d88"
+	totalerrorcount="1"
+	totalwarningcount="1"
+	totalsuccesscount="0"
+	totalfailedcount="0"
+	totalblockedcount="0">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings/>
+		<item
+		time="00:00.423"
+		level="Warn"
+		category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>varURL, varBrowser, varShowsName, varExternalId, varDuration, varDurationMin, varDurationSec
+			</message>
+			<metainfo
+			loglvl="Warn"/>
+		</item>
+		<item
+		time="00:00.523"
+		level="Info"
+		category="Website"
+		errimg=".\Recording120150512_192759_4620e513_trace.jpg"
+		errthumb=".\Recording120150512_192759_4620e513_trace_thumb.jpg">
+			<message>
+				Opening web site URL in variable $varURL with browser specified by variable $varBrowser in normal mode.
+			</message>
+			<metainfo
+			codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\Recording1.UserCode.cs"
+			codeline="269"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:00.630"
+		level="Info"
+		category="Delay"
+		errimg=".\Recording120150512_192759_a44dfe51_trace.jpg"
+		errthumb=".\Recording120150512_192759_a44dfe51_trace_thumb.jpg">
+			<message>
+				Waiting for 10s.
+			</message>
+			<metainfo
+			itemindex="1"
+			codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\Recording1.cs"
+			codeline="176"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:00.900"
+		level="Error"
+		category="User"
+		errimg=".\Recording120150512_192759_1e6e8b95_trace.jpg"
+		errthumb=".\Recording120150512_192759_1e6e8b95_trace_thumb.jpg">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+			loglvl="Error"/>
+		</item>
+	</activity>
+</report>

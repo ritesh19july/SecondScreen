@@ -1,0 +1,674 @@
+﻿<report>
+	<activity
+	user="mohd.nazim"
+	host="CTNL1134KESHAV"
+	rxversion="5.3.1.22939"
+	osversion="Windows 7 Service Pack 1 32bit"
+	runtimeversion="4.0.30319.17929"
+	procarch="32bit"
+	language="en-US"
+	screenresolution="1366x768"
+	timestamp="5/25/2015 6:35:18 PM"
+	timestampiso="2015-05-25T13:05:18"
+	timeoutfactor="1"
+	result="Success"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="3c7d57fe065120a2"
+	totalerrorcount="8"
+	totalwarningcount="1"
+	totalsuccesscount="0"
+	totalfailedcount="4"
+	totalblockedcount="0">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+		testsuitename="SecondScreen"
+		runconfigname="TestRun"
+		runlabel=""
+		maxchildren="16"
+		result="Failed"
+		duration="23.52s"
+		durationms="23521"
+		type="test suite"
+		rid="aeea330a5a9481e"
+		totalerrorcount="8"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="4"
+		totalblockedcount="0">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+			testcasename="OpenManageScreen"
+			testcaseid="e12f671d-a5dc-43a6-a94c-f533eec6c144"
+			datasource="manageScreenNew"
+			iterationcount="2"
+			maxchildren="0"
+			result="Failed"
+			duration="19.63s"
+			durationms="19627"
+			type="test case"
+			rid="175bec8490f0d0c4"
+			totalerrorcount="2"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+				testcasename="OpenManageScreen"
+				iteration="1"
+				result="Failed"
+				duration="19.62s"
+				durationms="19622"
+				type="test case iteration"
+				rid="19a171690ef661ef"
+				totalerrorcount="4"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="0">
+					<datarow>
+						<field
+						name="varBrowser">
+							Chrome
+						</field>
+						<field
+						name="varURL">
+							http://wwe-dev.wwe-app.cloud14.wwe.com/feeds/wweactive/manage
+						</field>
+						<field
+						name="varDynamicTime">
+							2000
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+					modulename="OpenManageScreen"
+					moduleid="9d4379d3-5419-41f3-aa66-81fc2e51e5f1"
+					moduletype="Recording"
+					result="Failed"
+					duration="19.5s"
+					durationms="19496"
+					type="test module"
+					rid="573fe26f78e06ed"
+					totalerrorcount="2"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0">
+						<detail>
+						</detail>
+						<varbindings>
+							<varbinding
+							name="varBrowser"
+							value="Chrome"/>
+							<varbinding
+							name="varURL"
+							value="http://wwe-dev.wwe-app.cloud14.wwe.com/feeds/wweactive/manage"/>
+						</varbindings>
+						<item
+						time="00:01.147"
+						level="Info"
+						category="Data">
+							<message>
+								Current variable values:<br/>$varBrowser = 'Chrome', $varURL = 'http://wwe-dev.wwe-app.cloud14.wwe.com/feeds/wweactive/manage'
+							</message>
+							<metainfo
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:01.218"
+						level="Info"
+						category="Website"
+						errimg="C:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\bin\Debug\images_SecondScreen_20150525_183518\SecondScreen_20150525_183518_42ab524a_trace.jpg"
+						errthumb="C:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\bin\Debug\images_SecondScreen_20150525_183518\SecondScreen_20150525_183518_42ab524a_trace_thumb.jpg">
+							<message>
+								Opening web site URL in variable $varURL with browser specified by variable $varBrowser in normal mode.
+							</message>
+							<metainfo
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\openManageScreen.UserCode.cs"
+							codeline="44"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:01.624"
+						level="Info"
+						category="Delay">
+							<message>
+								Waiting for 40s.
+							</message>
+							<metainfo
+							itemindex="1"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\openManageScreen.cs"
+							codeline="109"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:20.213"
+						level="Error"
+						category="User">
+							<message>
+								The test run has been aborted by the user.
+							</message>
+							<metainfo
+							loglvl="Error"/>
+						</item>
+					</activity>
+					<activity
+					modulename="OpenManageScreen"
+					moduleid="9d4379d3-5419-41f3-aa66-81fc2e51e5f1"
+					moduletype="Recording"
+					result="Failed"
+					duration="72ms"
+					durationms="72"
+					type="test module"
+					rid="4c9cdf591f7008"
+					totalerrorcount="2"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0">
+						<detail>
+						</detail>
+						<errmsg>
+							A generic error occurred in GDI+.
+						</errmsg>
+						<item
+						time="00:20.627"
+						level="Error"
+						category="Module">
+							<message>
+								A generic error occurred in GDI+.
+							</message>
+							<metainfo
+							stacktrace="   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)&#13;&#10;   at System.Drawing.Image.Save(String filename, ImageFormat format)&#13;&#10;   at Ranorex.Core.XmlLogger.SaveScreenshot(Bitmap img, Int32 thumbWidth, ReportEnvironment reportEnv, String fullImgSuffix, String thumbImgSuffix, Boolean appendImageCount, Int32&amp; imgCnt, Boolean overwriteExisting, String&amp; imgFileName, String&amp; imgThumbFileName)&#13;&#10;   at Ranorex.Core.Reporting.ReportItem.SaveScreenshot(CompressedImage img)&#13;&#10;   at Ranorex.Core.Reporting.TestReport.SaveLocalScreenshotBuffer(Activity mod)&#13;&#10;   at Ranorex.Core.Reporting.TestReport.SaveLocalScreenshotBuffer()&#13;&#10;   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)&#13;&#10;   at Ranorex.Core.Testing.TestSuiteModule.RunWithRepeats(DataContext parentDataContext, ErrorBehavior errorBehavior)&#13;&#10;   at Ranorex.Core.Testing.TestSuiteModule.Run(DataContext parentDataContext, Boolean childSkip)"
+							loglvl="Error"/>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+			<activity
+			testcasename="AddContent-Trivia"
+			testcaseid="2ca56cc1-f530-4650-9d3b-16991a691d6c"
+			datasource="addTriviA"
+			iterationcount="1"
+			maxchildren="0"
+			result="Failed"
+			duration="1148ms"
+			durationms="1148"
+			type="test case"
+			rid="3e33d714ccd184c"
+			totalerrorcount="2"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+				testcasename="AddContent-Trivia"
+				iteration="1"
+				result="Failed"
+				duration="1141ms"
+				durationms="1141"
+				type="test case iteration"
+				rid="15029cea8c153787"
+				totalerrorcount="4"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="0">
+					<datarow>
+						<field
+						name="varAnswer1">
+							Big E
+						</field>
+						<field
+						name="varAnswer2">
+							John Cena
+						</field>
+						<field
+						name="varAnswer3">
+							Brock Lecner
+						</field>
+						<field
+						name="varAnswer4">
+							Nikki Bela
+						</field>
+						<field
+						name="varCloserLose">
+							Batista
+						</field>
+						<field
+						name="varCloserWin">
+							Big E
+						</field>
+						<field
+						name="varCorrectAns">
+							2
+						</field>
+						<field
+						name="varCorrectText">
+							John Cena
+						</field>
+						<field
+						name="varIncorrectText">
+							Nikki Bela
+						</field>
+						<field
+						name="varOpnerGrahpic">
+							26253697
+						</field>
+						<field
+						name="varQuestion1">
+							who says &quot;u Cant see me&quot;
+						</field>
+						<field
+						name="varTitle">
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+					modulename="AddContentTrivia"
+					moduleid="1e89e17a-0fcf-407f-bb42-eac7337c3f5f"
+					moduletype="Recording"
+					result="Failed"
+					duration="971ms"
+					durationms="971"
+					type="test module"
+					rid="27eea950b13958ac"
+					totalerrorcount="2"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0">
+						<detail>
+						</detail>
+						<varbindings>
+							<varbinding
+							name="varAnswer1"
+							value="Big E"/>
+							<varbinding
+							name="varAnswer2"
+							value="John Cena"/>
+							<varbinding
+							name="varAnswer3"
+							value="Brock Lecner"/>
+							<varbinding
+							name="varAnswer4"
+							value="Nikki Bela"/>
+							<varbinding
+							name="varCloserLose"
+							value="Batista"/>
+							<varbinding
+							name="varCloserWin"
+							value="Big E"/>
+							<varbinding
+							name="varCorrectAns"
+							value="2"/>
+							<varbinding
+							name="varCorrectText"
+							value="John Cena"/>
+							<varbinding
+							name="varIncorrectText"
+							value="Nikki Bela"/>
+							<varbinding
+							name="varOpenerGraphic"
+							value="26253697"/>
+							<varbinding
+							name="varQuestion1"
+							value="who says &quot;u Cant see me&quot;"/>
+							<varbinding
+							name="varTitle"
+							value=""/>
+						</varbindings>
+						<item
+						time="00:21.391"
+						level="Info"
+						category="Data"
+						errimg="C:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\bin\Debug\images_SecondScreen_20150525_183518\SecondScreen_20150525_183518_aede6a38_trace.jpg"
+						errthumb="C:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\bin\Debug\images_SecondScreen_20150525_183518\SecondScreen_20150525_183518_aede6a38_trace_thumb.jpg">
+							<message>
+								Current variable values:<br/>$varAnswer1 = 'Big E', $varAnswer2 = 'John Cena', $varAnswer3 = 'Brock Lecner', $varAnswer4 = 'Nikki Bela', $varCloserLose = 'Batista', $varCloserWin = 'Big E', $varCorrectAns = '2', $varCorrectText = 'John Cena', $varIncorrectText = 'Nikki Bela', $varOpenerGraphic = '26253697', $varQuestion1 = 'who says &quot;u Cant see me&quot;', $varTitle = ''
+							</message>
+							<metainfo
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:21.461"
+						level="Info"
+						category="Mouse">
+							<message>
+								(Optional Action)<br/>Mouse Left Click item 'ShowsWWE.UiAccordionAccordionHeader8' at 60;15.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//h3[#'ui-accordion-accordion-header-8']"
+							fullname="SecondScreenRepository.ShowsWWE.UiAccordionAccordionHeader8"
+							id="c353a65c3f704d56a69eb8ef609dcad5"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\AddContentTrivia.UserCode.cs"
+							codeline="264"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:22.226"
+						level="Error"
+						category="User">
+							<message>
+								The test run has been aborted by the user.
+							</message>
+							<metainfo
+							loglvl="Error"/>
+						</item>
+					</activity>
+					<activity
+					modulename="AddContentTrivia"
+					moduleid="1e89e17a-0fcf-407f-bb42-eac7337c3f5f"
+					moduletype="Recording"
+					result="Failed"
+					duration="89ms"
+					durationms="89"
+					type="test module"
+					rid="12ec785d17bb7a9e"
+					totalerrorcount="2"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0">
+						<detail>
+						</detail>
+						<errmsg>
+							A generic error occurred in GDI+.
+						</errmsg>
+						<item
+						time="00:22.403"
+						level="Error"
+						category="Module">
+							<message>
+								A generic error occurred in GDI+.
+							</message>
+							<metainfo
+							stacktrace="   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)&#13;&#10;   at System.Drawing.Image.Save(String filename, ImageFormat format)&#13;&#10;   at Ranorex.Core.XmlLogger.SaveScreenshot(Bitmap img, Int32 thumbWidth, ReportEnvironment reportEnv, String fullImgSuffix, String thumbImgSuffix, Boolean appendImageCount, Int32&amp; imgCnt, Boolean overwriteExisting, String&amp; imgFileName, String&amp; imgThumbFileName)&#13;&#10;   at Ranorex.Core.Reporting.ReportItem.SaveScreenshot(CompressedImage img)&#13;&#10;   at Ranorex.Core.Reporting.TestReport.SaveLocalScreenshotBuffer(Activity mod)&#13;&#10;   at Ranorex.Core.Reporting.TestReport.SaveLocalScreenshotBuffer()&#13;&#10;   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)&#13;&#10;   at Ranorex.Core.Testing.TestSuiteModule.RunWithRepeats(DataContext parentDataContext, ErrorBehavior errorBehavior)&#13;&#10;   at Ranorex.Core.Testing.TestSuiteModule.Run(DataContext parentDataContext, Boolean childSkip)"
+							loglvl="Error"/>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+			<activity
+			testcasename="AddContent-Poll"
+			testcaseid="74fb2738-6021-4a82-8fc2-22331a524d0c"
+			datasource="NewConnector2"
+			iterationcount="1"
+			maxchildren="0"
+			result="Failed"
+			duration="736ms"
+			durationms="736"
+			type="test case"
+			rid="31fe1c09e5599e8"
+			totalerrorcount="2"
+			totalwarningcount="1"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+				testcasename="AddContent-Poll"
+				iteration="1"
+				result="Failed"
+				duration="733ms"
+				durationms="733"
+				type="test case iteration"
+				rid="ee4f953709a145e"
+				totalerrorcount="4"
+				totalwarningcount="2"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="0">
+					<datarow>
+						<field
+						name="PollNID">
+							27201280
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+					modulename="AddContent_Poll"
+					moduleid="c1ef8995-760c-4157-a05c-cc0c94fdc404"
+					moduletype="Recording"
+					result="Failed"
+					duration="652ms"
+					durationms="652"
+					type="test module"
+					rid="e7c68346a1e8c10"
+					totalerrorcount="2"
+					totalwarningcount="2"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0">
+						<detail>
+						</detail>
+						<varbindings/>
+						<item
+						time="00:22.473"
+						level="Warn"
+						category="Data"
+						errimg="C:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\bin\Debug\images_SecondScreen_20150525_183518\SecondScreen_20150525_183518_f9887c2e_trace.jpg"
+						errthumb="C:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\bin\Debug\images_SecondScreen_20150525_183518\SecondScreen_20150525_183518_f9887c2e_trace_thumb.jpg">
+							<message>
+								The following module variables are not bound to a data column:<br/>varPollNID
+							</message>
+							<metainfo
+							loglvl="Warn"/>
+						</item>
+						<item
+						time="00:22.529"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left Up item 'ShowsWWE.EditPollNid' at 21;11.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//input[#'edit-poll-nid']"
+							fullname="SecondScreenRepository.ShowsWWE.EditPollNid"
+							id="210dc90742914bddb6721114f0af2e55"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\AddContent_Poll.UserCode.cs"
+							codeline="63"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:23.022"
+						level="Error"
+						category="User">
+							<message>
+								The test run has been aborted by the user.
+							</message>
+							<metainfo
+							loglvl="Error"/>
+						</item>
+					</activity>
+					<activity
+					modulename="AddContent_Poll"
+					moduleid="c1ef8995-760c-4157-a05c-cc0c94fdc404"
+					moduletype="Recording"
+					result="Failed"
+					duration="75ms"
+					durationms="75"
+					type="test module"
+					rid="64bdfb46069ef62"
+					totalerrorcount="2"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0">
+						<detail>
+						</detail>
+						<errmsg>
+							A generic error occurred in GDI+.
+						</errmsg>
+						<item
+						time="00:23.129"
+						level="Error"
+						category="Module">
+							<message>
+								A generic error occurred in GDI+.
+							</message>
+							<metainfo
+							stacktrace="   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)&#13;&#10;   at System.Drawing.Image.Save(String filename, ImageFormat format)&#13;&#10;   at Ranorex.Core.XmlLogger.SaveScreenshot(Bitmap img, Int32 thumbWidth, ReportEnvironment reportEnv, String fullImgSuffix, String thumbImgSuffix, Boolean appendImageCount, Int32&amp; imgCnt, Boolean overwriteExisting, String&amp; imgFileName, String&amp; imgThumbFileName)&#13;&#10;   at Ranorex.Core.Reporting.ReportItem.SaveScreenshot(CompressedImage img)&#13;&#10;   at Ranorex.Core.Reporting.TestReport.SaveLocalScreenshotBuffer(Activity mod)&#13;&#10;   at Ranorex.Core.Reporting.TestReport.SaveLocalScreenshotBuffer()&#13;&#10;   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)&#13;&#10;   at Ranorex.Core.Testing.TestSuiteModule.RunWithRepeats(DataContext parentDataContext, ErrorBehavior errorBehavior)&#13;&#10;   at Ranorex.Core.Testing.TestSuiteModule.Run(DataContext parentDataContext, Boolean childSkip)"
+							loglvl="Error"/>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+			<activity
+			testcasename="AddContent-YouTube"
+			testcaseid="2ac706ba-1f41-45ba-806f-0c17eda28bc7"
+			datasource="NewConnector1"
+			iterationcount="1"
+			maxchildren="0"
+			result="Failed"
+			duration="684ms"
+			durationms="684"
+			type="test case"
+			rid="262c66dbd66a520"
+			totalerrorcount="2"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+				testcasename="AddContent-YouTube"
+				iteration="1"
+				result="Failed"
+				duration="681ms"
+				durationms="681"
+				type="test case iteration"
+				rid="1cafc172b0d7930d"
+				totalerrorcount="4"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="0">
+					<datarow>
+						<field
+						name="YouTubeNID">
+							AiNrPS9Z4fY
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+					modulename="AddContent_YouTube"
+					moduleid="744d5f8e-ca75-4a9e-b1fe-5e6166b3d849"
+					moduletype="Recording"
+					result="Failed"
+					duration="605ms"
+					durationms="605"
+					type="test module"
+					rid="c83067ef5a19602"
+					totalerrorcount="2"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0">
+						<detail>
+						</detail>
+						<varbindings>
+							<varbinding
+							name="varYTubeId"
+							value="AiNrPS9Z4fY"/>
+						</varbindings>
+						<item
+						time="00:23.212"
+						level="Info"
+						category="Data"
+						errimg="C:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\bin\Debug\images_SecondScreen_20150525_183518\SecondScreen_20150525_183518_cbd46758_trace.jpg"
+						errthumb="C:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\bin\Debug\images_SecondScreen_20150525_183518\SecondScreen_20150525_183518_cbd46758_trace_thumb.jpg">
+							<message>
+								Current variable values:<br/>$varYTubeId = 'AiNrPS9Z4fY'
+							</message>
+							<metainfo
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:23.258"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left Click item 'ShowsWWE.UiAccordionAccordionHeader7' at 121;9.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='wwe-dev.wwe-app.cloud14.wwe.com']//h3[#'ui-accordion-accordion-header-7']"
+							fullname="SecondScreenRepository.ShowsWWE.UiAccordionAccordionHeader7"
+							id="66141067a4db4d7a84a9d7f9c6de79f1"
+							timeout="60000"
+							codefile="c:\Users\mohd.nazim\Documents\Ranorex\RanorexStudio Projects\SecondScreen\SecondScreen\AddContent_YouTube.UserCode.cs"
+							codeline="49"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:23.722"
+						level="Error"
+						category="User">
+							<message>
+								The test run has been aborted by the user.
+							</message>
+							<metainfo
+							loglvl="Error"/>
+						</item>
+					</activity>
+					<activity
+					modulename="AddContent_YouTube"
+					moduleid="744d5f8e-ca75-4a9e-b1fe-5e6166b3d849"
+					moduletype="Recording"
+					result="Failed"
+					duration="69ms"
+					durationms="69"
+					type="test module"
+					rid="d58a0f3bdf76a60"
+					totalerrorcount="2"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0">
+						<detail>
+						</detail>
+						<errmsg>
+							A generic error occurred in GDI+.
+						</errmsg>
+						<item
+						time="00:23.821"
+						level="Error"
+						category="Module">
+							<message>
+								A generic error occurred in GDI+.
+							</message>
+							<metainfo
+							stacktrace="   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)&#13;&#10;   at System.Drawing.Image.Save(String filename, ImageFormat format)&#13;&#10;   at Ranorex.Core.XmlLogger.SaveScreenshot(Bitmap img, Int32 thumbWidth, ReportEnvironment reportEnv, String fullImgSuffix, String thumbImgSuffix, Boolean appendImageCount, Int32&amp; imgCnt, Boolean overwriteExisting, String&amp; imgFileName, String&amp; imgThumbFileName)&#13;&#10;   at Ranorex.Core.Reporting.ReportItem.SaveScreenshot(CompressedImage img)&#13;&#10;   at Ranorex.Core.Reporting.TestReport.SaveLocalScreenshotBuffer(Activity mod)&#13;&#10;   at Ranorex.Core.Reporting.TestReport.SaveLocalScreenshotBuffer()&#13;&#10;   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)&#13;&#10;   at Ranorex.Core.Testing.TestSuiteModule.RunWithRepeats(DataContext parentDataContext, ErrorBehavior errorBehavior)&#13;&#10;   at Ranorex.Core.Testing.TestSuiteModule.Run(DataContext parentDataContext, Boolean childSkip)"
+							loglvl="Error"/>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>
